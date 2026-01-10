@@ -148,7 +148,7 @@ useEffect(() => {
         setDaydata(final_data)
         dispatch(change_check_Check())
         dispatch(chnage_original_route_data(final_data))
-        dispatch(change_selected_mark(-1))
+        dispatch(change_selected_mark(pick_day))
       
 
     
@@ -280,18 +280,19 @@ useEffect(() => {
   };
 
 const Travel_Day2 = function(){
-       dispatch(Time_Duration({ first:filter_comment.length-1}))
+
        const Route_location= filter_comment.map((el)=>Object.values(el.location))
 
       //여기 뭔지 다시 확인해줘  
       console.log(Route_location, original_route,pick_day)
-   const hey = [...original_route];
-hey[pick_day - 1] = Route_location;
+   
+  const hey = [...original_route];
+  hey[pick_day - 1] = Route_location;
 
-     dispatch(chnage_original_route_data(hey))
-      dispatch(change_selected_mark(0))
-        dispatch(Time_Duration({ first: filter_comment.length - 1 }));
-       dispatch(change_check_Check())
+  dispatch(chnage_original_route_data(hey));
+      //dispatch(change_selected_mark(pick_day))
+      dispatch(Time_Duration({ first: filter_comment.length - 1 }));
+      dispatch(change_check_Check())
  
 }
 
