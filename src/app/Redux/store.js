@@ -55,7 +55,6 @@ const counterSlice = createSlice({
 const controllerSlice= createSlice({
   name:'controller',
   initialState:{
- 
    Check_check: -1,
    select_mark_index:-1,
    cancel_check:false,
@@ -110,7 +109,6 @@ const controllerSlice= createSlice({
       if(action.payload.first>=0){
           state.Duration_Time = Array.from({ length: 30 }, () => ({}));
         return;
-
       }
       if( action.payload.first==-1){
  const time= action.payload.time;
@@ -158,12 +156,26 @@ const data_store_slice= createSlice({
         selectedDay: 0}
   },
   reducers:{ 
-    set_SelectedDay(state, action) {
-     state.travel_Result = {
-  ...state.travel_Result,
-  ...action.payload,
-};
-    },
+     set_SelectedDay(state, action) {
+
+    if (action.payload.check === 0) {
+      state.travel_Result = {
+        daydata: [],
+        tabs: [],
+        selectedDay: 0,
+      };
+      return;
+    }
+
+    state.travel_Result = {
+      ...state.travel_Result,
+      daydata: action.payload.daydata,
+      tabs: action.payload.tabs,
+      selectedDay: action.payload.day,
+    };
+  },
+
+    
    data_Store_change(state, action) {
       const index = action.payload.index;
       const data = action.payload.data;

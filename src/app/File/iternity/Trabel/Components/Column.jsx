@@ -10,7 +10,7 @@ import "./Column.css";
 
 export const Column = ({ tasks }) => {
 
-    console.log(tasks,'여기 컬럼에서 확인좀 부탁')
+   
   return (
     <div className="column">
       <SortableContext items={tasks} strategy={verticalListSortingStrategy}>

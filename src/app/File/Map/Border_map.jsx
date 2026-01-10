@@ -8,7 +8,7 @@ export default function Border_map() {
   const map = useMap();
   const place= useSelector((state) => state.data_store.locality_place);
   // const place= 'ChIJMS2FahDQzRIRcJqX_aUZCAQ'
- console.log(place.place,'여기 지금 접근되냐?')
+
 // adjust the viewport of the map when the place is changed
   useEffect(() => {
     if (!map || !place) return;

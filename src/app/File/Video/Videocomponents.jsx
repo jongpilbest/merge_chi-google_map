@@ -21,7 +21,7 @@ const VideoPlayer = forwardRef(function VideoPlayer({ url }, ref) {
   }, [url]);
 
     const [currentTime, setCurrentTime] = useState(0);
-    console.log(currentTime,'현재시간? ')
+
   
   useEffect(() => {
     if (ready && ref.current && youtube_link != null) {
@@ -41,7 +41,7 @@ const VideoPlayer = forwardRef(function VideoPlayer({ url }, ref) {
   }, [ready, youtube_link]);
 
   const getActiveMarkerId= function(playedSeconds,comment){
-   console.log(youtube_cuurent_url,'현재 링크 뭐시어')
+ 
     if(comment){
         // comment.
       

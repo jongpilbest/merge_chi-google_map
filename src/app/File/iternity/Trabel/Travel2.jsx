@@ -58,7 +58,7 @@ export const Travel2= function(){
 
     const [selectedDay, setSelectedDay] = useState(0);
      const[filter_comment, set_filter_comment]=useState([]);
-    console.log(filter_comment,'데이2')
+   
      
 useEffect(() => {
   if (!travel_data?.tabs?.length) return;
@@ -75,7 +75,7 @@ useEffect(() => {
      const comment= useSelector((state)=>state.data_store.location_data,shallowEqual) 
        
      const { color_location } = useSelector((state) => state.data_store); 
-              function Drawer_change(e){
+    function Drawer_change(e){
 
               
                 dispatch(Time_Duration({ first:1}))
@@ -104,9 +104,7 @@ const Travel_Day = function(){
        const Route_location= filter_comment.map((el)=>Object.values(el.location))
 
       //여기 뭔지 다시 확인해줘  
-         console.log(Route_location,'뭐지? travel2')
-
-
+    
        dispatch(chnage_original_route_data([Route_location]))
        dispatch(change_selected_mark(0))
        dispatch(change_check_Check())
@@ -115,12 +113,11 @@ const Travel_Day = function(){
 
     return(
 
-        <>
-         <div className=" flex flex-col h-full pt-4">
+         <div className=" flex flex-col h-full pt-4 overflow-y-auto">
                
 
                  {
-               <div className="h-full flex-1 pb-24  overflow-y-auto ">
+               <div className=" flex-1 pb-24   ">
                <Drawer change_category={(e) => Drawer_change(e)} tabs={tabs}>
                  <DndContext
         sensors={sensors}
@@ -145,6 +142,6 @@ const Travel_Day = function(){
          </div>
 }
 </div>
-        </>
+   
     )
 }

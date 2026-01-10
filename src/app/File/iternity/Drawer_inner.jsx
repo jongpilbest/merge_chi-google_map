@@ -4,7 +4,7 @@ export default function Drawer_inner({total_travel}) {
 
      function Drawer_change(e){
      // ✅ undefined 검사 먼저
-    
+      console.log(e,'여기 뭔데?????????')
        // 여기 기존이랑 똑같아서 안생기는거임. 그래서 이걸 고치ㅕㄴ되ㅣㄽ ;;
         dispatch(change_selected_mark(e-1))
         const filter_data_day= Daydata[e-1] 
@@ -16,7 +16,7 @@ export default function Drawer_inner({total_travel}) {
     
       // ✅ 두 번째 방어: 비어 있는 배열 확인
       if (!Array.isArray(filter_data_day) || filter_data_day.length === 0) {
-        console.warn("⚠️ Drawer_change: filter_data_day is empty", filter_data_day);
+        //console.warn("⚠️ Drawer_change: filter_data_day is empty", filter_data_day);
         return;
       }
        

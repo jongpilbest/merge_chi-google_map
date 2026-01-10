@@ -74,10 +74,11 @@ function Direction({ polylinesRef, color = "#ff0000", check }: Prop) {
     console.log(comment,'코멘츠',Find_index_mark)
     if(comment.length==0) return ;
     if(Find_index_mark<0) return;
+    if(comment[Find_index_mark].length<=1) return;
 
     const segment= comment[Find_index_mark]
-    //console.log(segment,'지금뭔데?',comment)
-
+    console.log(segment,'?anjdla')
+   if(segment==undefined) return;
 
       map.panTo({
         'lat':segment[0][0],

@@ -4,7 +4,7 @@ import "react-day-picker/style.css";
 import { kMeans, runKMeansWithOptimalInertia } from "k-means-clustering-js";
 import { Cluster } from "k-means-clustering-js/dist/types";
 import { useDispatch } from "react-redux";
-
+import { Column } from "./Components/Column";
 import { isDateRange } from "react-day-picker";
 import { useSelector } from "react-redux";
 import Drawer from '../../../Place_list/Drawer'
@@ -20,7 +20,15 @@ import { chnage_original_route_data ,change_check_Check,personal_color_place} fr
 import { change_selected_mark ,set_SelectedDay} from "../../../Redux/store";
 import { shallowEqual } from "react-redux";
 import{formatTime ,makeOrderedRoute,find_key} from '.././geoUtils'
-
+import {
+  DndContext,
+  KeyboardSensor,
+  PointerSensor,
+  useSensor,
+  useSensors,
+  closestCorners,
+} from "@dnd-kit/core";
+import { arrayMove, sortableKeyboardCoordinates } from "@dnd-kit/sortable";
 import {Day_canlendar} from './Day_Canceldner'
 
 export const Travel__= function(){
@@ -28,7 +36,7 @@ export const Travel__= function(){
      const { color_location } = useSelector((state) => state.data_store); 
 
      const travel_data =useSelector(state => state.data_store.travel_Result);
-    
+     let original_route= useSelector((state) => state.contorller.original_route_data);
     
      const dispatch= useDispatch()
       
@@ -44,15 +52,19 @@ export const Travel__= function(){
      const [pick_day, set_pick_day]=useState(0);
      const [range, setRange] = useState(isDateRange);
       const [total_travel, settotal_Travel] = useState({
-        day:2,
-        tabs:[...travel_data.tabs]
+        day:0,
+        tabs:[
+    { id: 0, label: "Day 1" },
+    { id: 1, label: "Day 2" },
+    { id: 2, label: "Day 3" },
+    { id: 3, label: "Day 4" },
+  ]
       });
       const[Daydata,setDaydata]=useState([]);
-      const[time,settime]=useState();
 
 useEffect(() => {
   if (!travel_data?.tabs?.length) return;
-  if (travel_data.daydata.length > 0) {
+  if (travel_data.daydata.length > 0   ) {
      settotal_Travel(prev => ({
     ...prev,
     tabs: [...travel_data.tabs],
@@ -65,8 +77,6 @@ useEffect(() => {
 
     
        useEffect(() => {
-            //dispatch(Time_Duration({ first:1}))
-
       if ( Total_duration.every(obj => Object.keys(obj).length !=0) ) {
         // Duration이 갱신되면 강제로 렌더링 트리거 (state sync)
       
@@ -79,72 +89,8 @@ useEffect(() => {
     const { like_location } = useSelector((state) => state.data_store);
     
     
-      // format date text
-  useEffect(() => {
-  //.log(pick_day,'픽데이')
-  if (!color_location || pick_day< 0) return;
-
-  // 1. 현재 날짜의 장소만 추출
-
-  const today_keys = Object.entries(color_location)
-    .filter(([_, value]) => value === pick_day)
-    .map(([key]) => key);
-
-  if (today_keys.length === 0) {
-    console.log("❗ 선택된 날짜에 장소 없음");
-    return;
-  }
-
-  // 2. 해당 장소들의 좌표 가져오기
-  const today_places = today_keys
-    .map((key) => like_location[key])
-    .filter(Boolean);
-
-  if (today_places.length === 0) {
-    console.log("❗ 장소 좌표 없음");
-    return;
-  }
-
-  // 3. 해당 날짜의 경로 새로 계산
-  const result = runKMeansWithOptimalInertia({
-    data: today_places,
-    k: 1, // 하루치만 계산
-  });
-
-  const newRoute = makeOrderedRoute(result[0].points);
-      dispatch(Time_Duration({ first:1}))
-
-  // 4. 기존 Daydata에 반영
-  const updatedDaydata = [...Daydata];
-  //console.log('업데이트된 daydata라는데 뭐가?',updatedDaydata,Daydata,'데이데이터')
-  updatedDaydata[pick_day - 1] = newRoute;
-
-//  console.log('업데이트 된데이터라는데 ', updatedDaydata)
-  dispatch(chnage_original_route_data(updatedDaydata));
-  setDaydata(updatedDaydata); // local state도 업데이트
-
-  // 5. 장소 ID 추출 + 코멘트 필터링
-  const resultKeys = find_key(newRoute, like_location);
-
-  const comment_filter = resultKeys
-    .map((key) =>
-      Object.values(comment)
-        .flat(Infinity)
-        .find((item) => item.id === key)
-    )
-    .filter(Boolean);
-
-  set_filter_comment(comment_filter);
- dispatch( set_SelectedDay({
-           daydata: comment_filter,
-         })
-        )
-    
-
-}, [color_location,pick_day]);
 
 
-      
       const Travel_Day= function(){
     
           if(Object.values(like_location).length==0 || range.from ==null|| range.to ==null  ) return;
@@ -204,7 +150,7 @@ useEffect(() => {
         dispatch(chnage_original_route_data(final_data))
         dispatch(change_selected_mark(-1))
       
-        //Drawer_change(1)
+
     
       }
       function Drawer_change(e){
@@ -221,7 +167,7 @@ useEffect(() => {
     
       // ✅ 두 번째 방어: 비어 있는 배열 확인
       if (!Array.isArray(filter_data_day) || filter_data_day.length === 0) {
-        console.warn("⚠️ Drawer_change: filter_data_day is empty", filter_data_day);
+       // console.warn("⚠️ Drawer_change: filter_data_day is empty", filter_data_day);
         return;
       }
        
@@ -239,11 +185,115 @@ useEffect(() => {
         set_filter_comment(comment_filter)
         //여기에 그냥 크기만 입력하는거 하나 만들???
        }
-    
+     
+
+
+       
     
       }
 
+  useEffect(() => {
+  //.log(pick_day,'픽데이')
+  if (!color_location || pick_day< 0) return;
 
+  // 1. 현재 날짜의 장소만 추출
+
+  const today_keys = Object.entries(color_location)
+    .filter(([_, value]) => value === pick_day)
+    .map(([key]) => key);
+
+  if (today_keys.length === 0) {
+   // console.log("❗ 선택된 날짜에 장소 없음");
+    return;
+  }
+
+  // 2. 해당 장소들의 좌표 가져오기
+  const today_places = today_keys
+    .map((key) => like_location[key])
+    .filter(Boolean);
+
+  if (today_places.length === 0) {
+    //console.log("❗ 장소 좌표 없음");
+    return;
+  }
+
+  // 3. 해당 날짜의 경로 새로 계산
+  const result = runKMeansWithOptimalInertia({
+    data: today_places,
+    k: 1, // 하루치만 계산
+  });
+
+  const newRoute = makeOrderedRoute(result[0].points);
+      dispatch(Time_Duration({ first:1}))
+
+  // 4. 기존 Daydata에 반영
+  const updatedDaydata = [...Daydata];
+  //console.log('업데이트된 daydata라는데 뭐가?',updatedDaydata,Daydata,'데이데이터')
+  updatedDaydata[pick_day - 1] = newRoute;
+
+//  console.log('업데이트 된데이터라는데 ', updatedDaydata)
+  dispatch(chnage_original_route_data(updatedDaydata));
+  setDaydata(updatedDaydata); // local state도 업데이트
+
+  // 5. 장소 ID 추출 + 코멘트 필터링
+  const resultKeys = find_key(newRoute, like_location);
+
+  const comment_filter = resultKeys
+    .map((key) =>
+      Object.values(comment)
+        .flat(Infinity)
+        .find((item) => item.id === key)
+    )
+    .filter(Boolean);
+
+  set_filter_comment(comment_filter);
+ dispatch( set_SelectedDay({
+           daydata: comment_filter,
+           selectedDay:pick_day-1
+         })
+        )
+    
+
+}, [color_location,pick_day]);
+
+
+    
+  const sensors = useSensors(
+    useSensor(PointerSensor),
+    useSensor(KeyboardSensor, {
+      coordinateGetter: sortableKeyboardCoordinates,
+    })
+  );
+
+  const getTaskPos = (id) => filter_comment.findIndex((task) => task.id === id);
+
+  const handleDragEnd = (event) => {
+    const { active, over } = event;
+
+    if (active.id === over.id) return;
+
+    set_filter_comment((tasks) => {
+      const originalPos = getTaskPos(active.id);
+      const newPos = getTaskPos(over.id);
+      return arrayMove(tasks, originalPos, newPos);
+    });
+  };
+
+const Travel_Day2 = function(){
+       dispatch(Time_Duration({ first:filter_comment.length-1}))
+       const Route_location= filter_comment.map((el)=>Object.values(el.location))
+
+      //여기 뭔지 다시 확인해줘  
+      console.log(Route_location, original_route,pick_day)
+   const hey = [...original_route];
+hey[pick_day - 1] = Route_location;
+
+     dispatch(chnage_original_route_data(hey))
+      dispatch(change_selected_mark(0))
+        dispatch(Time_Duration({ first: filter_comment.length - 1 }));
+       dispatch(change_check_Check())
+ 
+}
 
 
     return(
@@ -260,51 +310,29 @@ useEffect(() => {
          Auto generation
          </button>
            </div>
-           <div className="h-full  overflow-y-auto">
+           <div className="h-full flex-1  overflow-y-auto">
            {total_travel.tabs.length>0&&
-                <Drawer change_category={(e) => Drawer_change(e)} tabs={total_travel.tabs}>
-                    <Suspense fallback={<AiOutlineLoading3Quarters className="animate-spin text-blue-500 w-10 h-10"></AiOutlineLoading3Quarters>}>
-               
-              
-         <div className="p-2 flex justify-between ">
-                  <p className="text-black text-xs">Total Time </p>
-                 <p className="text-black text-xs font-bold">  {formatTime(total)}</p>
-          </div>
-      
-            
-             
-             {filter_comment.map((El, idx) => (
-             
-           <React.Fragment key={El.googlePlace}>
-             {/* 장소 컴포넌트 */}
-               
-             <Inner_compont key={El.describe} data={El} />
-   
-             {/* 다음 장소가 존재할 때만 시간 표시 */}
-             {Total_duration?.[idx] && (
-               <div className="flex flex-row gap-4 items-center my-2 text-gray-600 text-sm justify-center">
-                 {Total_duration[idx].WALK>0 && 
-                   
-                   <span className="flex text-xs ">
-                <FaPersonWalking></FaPersonWalking>
-                  :   {formatTime (Total_duration[idx].WALK) ?? "-"}
-                 </span>
-   }
-                 {
-                   Total_duration[idx].TRANSIT>0&&
-                   <span className="flex text-xs">
-                 
-                        <FaTrainSubway></FaTrainSubway>
-                  : {formatTime (Total_duration[idx].TRANSIT) ?? "-"}
-                 </span>
-   }
-               </div>
-             )}
-           </React.Fragment>
-           
-         ))}
-         </Suspense>
-       </Drawer>
+               <Drawer change_category={(e) => Drawer_change(e)} tabs={total_travel.tabs}>
+                 <DndContext
+        sensors={sensors}
+        collisionDetection={closestCorners}
+        onDragEnd={handleDragEnd}
+      >
+        <Column id="toDo" tasks={filter_comment} />
+    
+        {filter_comment.length>0 &&  <button 
+         onClick={()=> Travel_Day2()}
+         className=" w-full
+         hover:bg-green-500  
+          h-8
+          mt-5
+         bg-[#47D6A2] rounded-md text-white  text-sm">
+         Route generation
+         </button>
+          }
+            </DndContext>
+               </Drawer>        
+       
    }
        </div>
    </>
