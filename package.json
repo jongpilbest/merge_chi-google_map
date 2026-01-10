@@ -1,0 +1,52 @@
+{
+  "name": "my-map-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@dnd-kit/core": "^6.3.1",
+    "@dnd-kit/sortable": "^10.0.0",
+    "@googlemaps/extended-component-library": "^0.6.14",
+    "@googlemaps/markerclusterer": "^2.6.2",
+    "@pinecone-database/pinecone": "^6.1.2",
+    "@reduxjs/toolkit": "^2.8.2",
+    "@tanstack/react-query": "^5.87.1",
+    "@vis.gl/react-google-maps": "^1.5.4",
+    "i": "^0.3.7",
+    "k-means-clustering-js": "^1.0.5",
+    "ml-kmeans": "^6.0.0",
+    "next": "15.4.4",
+    "npm": "^11.7.0",
+    "npm-overlapping-marker-spiderfier": "^1.0.3",
+    "openai": "^5.20.1",
+    "overlapping-marker-spiderfier": "^1.1.4",
+    "react": "19.1.0",
+    "react-day-picker": "^9.11.1",
+    "react-dom": "19.1.0",
+    "react-google-charts": "^5.2.1",
+    "react-icons": "^5.5.0",
+    "react-player": "^2.11.0",
+    "react-redux": "^9.2.0",
+    "ts-overlapping-marker-spiderfier": "^1.0.3",
+    "youtube-transcript": "^1.2.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/google.maps": "^3.58.1",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9",
+    "eslint-config-next": "15.4.4",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11",
+    "typescript": "^5"
+  }
+}

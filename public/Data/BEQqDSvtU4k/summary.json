@@ -1,0 +1,463 @@
+[
+  {
+    "city":"Shibuya",
+    "startTime": "98.139",
+    "endTime": "158.000",
+    "place": "도쿄 시부야 Fuglen Tokyo",
+    "googlePlace": "Fuglen Tokyo",
+    "describe": "요요기공원/도미가야 인근의 노르딕 스페셜티 커피 바, 라떼가 인기. 외관에서 사진 많이 찍는 스폿",
+    "realname": "확실함",
+    "emozi": "☕️📸",
+    "category": "food",
+    "location": {
+      "lat": 35.6666181,
+      "lng": 139.6923999
+    },
+    "id": "ChIJrWB6lbKMGGARp0QB0mMSNe4",
+    "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Tokyo/BEQqDSvtU4k/Fuglen%20Tokyo/103478.jpg?raw=true"
+  },
+  {"city":"Shibuya",
+    "startTime": "163.246",
+    "endTime": "221.137",
+    "place": "도쿄 시부야 KAKAN (마파두부)",
+    "googlePlace": "도쿄 시부야구 토미가야 Fuglen Tokyo",
+    "describe": "푸글렌 근처 중국요리집으로 추정, 칼칼한 마파두부와 테라스 좌석 언급",
+    "realname": "의심됨",
+    "emozi": "🌶️🥢",
+    "category": "food",
+    "location": {
+      "lat": 35.6666181,
+      "lng": 139.6923999
+    },
+    "id": "ChIJrWB6lbKMGGARp0QB0mMSNe4",
+    "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Tokyo/BEQqDSvtU4k/KAKAN/166749.jpg?raw=true"
+  },
+  
+  {
+    "city":"Minato City",
+    "startTime": "285.368",
+    "endTime": "339.005",
+    "place": "도쿄 아오야마 네즈 미술관",
+    "googlePlace": "Nezu Museum",
+    "describe": "대나무 길과 일본식 정원이 아름다운 미술관, 카페·연못·산책 가능",
+    "realname": "확실함",
+    "emozi": "🖼️🏞️",
+    "category": "sightseeing",
+    "location": {
+      "lat": 35.6622568,
+      "lng": 139.7170937
+    },
+    "id": "ChIJxU48-2OLGGARHMtB5RAhytA",
+    "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Tokyo/BEQqDSvtU4k/Nezu%20Museum/293376.jpg?raw=true"
+  },
+  {
+  "city":"Minato City",
+
+    "startTime": "354.020",
+    "endTime": "404.070",
+    "place": "도쿄 아카사카 Warayakiya Akasaka",
+    "googlePlace": "도쿄 아카사카 Warayakiya Akasaka",
+    "describe": "볏짚 직화(와라야키) 불쇼와 가다랑어 타다끼가 시그니처인 이자카야",
+    "realname": "의심됨",
+    "emozi": "🔥🐟",
+    "category": "food",
+    "location": {
+      "lat": 35.6738201,
+      "lng": 139.7379923
+    },
+    "id": "ChIJ0yW5RoeLGGARRM6n0xzPrd0",
+    "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Tokyo/BEQqDSvtU4k/Warayakiya%20Roppongi%20Akasaka%20(Akasaka%20branch)/354687.jpg?raw=true"
+  },
+  {
+      "city":"Minato City",
+    "startTime": "409.951",
+    "endTime": "473.306",
+    "place": "도쿄 롯폰기 Roppongi Hills (Keyakizaka 일루미네이션)",
+    "googlePlace": "Roppongi Hills",
+    "describe": "츠타야 인근 케야키자카 거리의 겨울 일루미네이션 포토 스폿",
+    "realname": "확실함",
+    "emozi": "🎄🏙️",
+    "category": "sightseeing",
+    "location": {
+      "lat": 35.6607397,
+      "lng": 139.7292319
+    },
+    "id": "ChIJM9xJEHeLGGARAshMWUgC_ls",
+    "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Tokyo/BEQqDSvtU4k/Roppongi%20Hills/410576.jpg?raw=true"
+  },
+  {
+      "city":"Kanagawa",
+    "startTime": "504.295",
+    "endTime": "545.878",
+    "place": "가나가와 후지사와 Fujisawa Station",
+    "googlePlace": "Fujisawa Station",
+    "describe": "가마쿠라 이동 시 환승 기점, 에노덴 패스 구매 언급",
+    "realname": "확실함",
+    "emozi": "🚉🗺️",
+    "category": "sightseeing",
+    "location": {
+      "lat": 35.3388984,
+      "lng": 139.4874695
+    },
+    "id": "ChIJC0kMNstPGGARmu_dZscfvjI",
+    "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Tokyo/BEQqDSvtU4k/Fujisawa%20Station/507632.jpg?raw=true"
+  },
+  {
+      "city":"Kamakura",
+    "startTime": "561.269",
+    "endTime": "613.112",
+    "place": "가나가와 가마쿠라 Kamakurakokomae Station",
+    "googlePlace": "Kamakurakokomae Station",
+    "describe": "슬램덩크 성지로 유명한 해변 인접 역, 포토 스폿 인파 많음",
+    "realname": "확실함",
+    "emozi": "🚋🌊",
+    "category": "sightseeing",
+    "location": {
+      "lat": 35.3067242,
+      "lng": 139.5005569
+    },
+    "id": "ChIJIRZ85hZPGGARffzavFo4QRk",
+    "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Tokyo/BEQqDSvtU4k/Kamakurakokomae%20Station/565940.jpg?raw=true"
+  },
+  {
+      "city":"Kamakura",
+    "startTime": "654.403",
+    "endTime": "721.637",
+    "place": "가나가와 시치리가하마 Pacific DRIVE-IN",
+    "googlePlace": "Pacific DRIVE-IN",
+    "describe": "바다 전망 하와이언 다이너, 테이크아웃·QR 주문 가능",
+    "realname": "확실함",
+    "emozi": "🍔🌊",
+    "category": "food",
+    "location": {
+      "lat": 35.3044277,
+      "lng": 139.5135768
+    },
+    "id": "ChIJNd_D8ENPGGARSghaDpPudGE",
+    "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Tokyo/BEQqDSvtU4k/Pacific%20DRIVE-IN/656030.jpg?raw=true"
+  },
+  {
+      "city":"Kamakura",
+    "startTime": "730.146",
+    "endTime": "755.296",
+    "place": "가나가와 가마쿠라 Komachi Dori",
+    "googlePlace": "Komachi Dori",
+    "describe": "가마쿠라역 앞 관광 상점가, 길거리 간식과 기념품 가게 밀집",
+    "realname": "확실함",
+    "emozi": "🛍️🍡",
+    "category": "shopping",
+    "location": {
+      "lat": 35.5714197,
+      "lng": 139.3592865
+    },
+    "id": "ChIJiTtiwJsCGWARZ0BoM7OW2kA",
+    "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Tokyo/BEQqDSvtU4k/Komachi%20Dori/734650.jpg?raw=true"
+  },
+  {
+      "city":"Kichijoji",
+    "startTime": "832.289",
+    "endTime": "904.570",
+    "place": "도쿄 키치조지 Margaret Howell Shop & Cafe (3F) (방문 시 임시 휴업)",
+    "googlePlace": "도쿄 키치조지 MARGARET HOWELL SHOP & CAFE KICHIJOJI",
+    "describe": "마가렛 호웰 매장과 카페로 추정, 3층 카페를 찾았으나 11/20–30 임시 휴업",
+    "realname": "의심됨",
+    "emozi": "☕️🛍️",
+    "category": "shopping",
+    "location": {
+      "lat": 35.704096,
+      "lng": 139.5802054
+    },
+    "id": "ChIJBUM940XuGGAR4dVP7nqzDHc",
+    "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Tokyo/BEQqDSvtU4k/MARGARET%20HOWELL%20SHOP%20&%20CAFE%20KICHIJOJI/838587.jpg?raw=true"
+  },
+  {
+   "city":"Kichijoji",
+    "startTime": "905.821",
+    "endTime": "913.412",
+    "place": "도쿄 키치조지 Hara Donuts Kichijoji",
+    "googlePlace": "Hara Donuts Kichijoji",
+    "describe": "키치조지의 대표 도넛 가게, 테이크아웃 후 피크닉 계획",
+    "realname": "확실함",
+    "emozi": "🍩🧃",
+    "category": "food",
+    "location": {
+      "lat": 35.7053772,
+      "lng": 139.5725848
+    },
+    "id": "ChIJe-TeakzuGGARbCPTPSsWKhs",
+    "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Tokyo/BEQqDSvtU4k/Hara%20Donuts%20Kichijoji/910618.jpg?raw=true"
+  },
+  {
+   "city":"Kichijoji",
+    "startTime": "940.064",
+    "endTime": "950.240",
+    "place": "도쿄 키치조지 PAPER MESSAGE Kichijoji",
+    "googlePlace": "PAPER MESSAGE Kichijoji",
+    "describe": "일러스트 엽서·페이퍼 굿즈 전문 스토어",
+    "realname": "확실함",
+    "emozi": "📝🎨",
+    "category": "shopping",
+    "location": {
+      "lat": 35.704096,
+      "lng": 139.5802054
+    },
+    "id": "ChIJBUM940XuGGAR4dVP7nqzDHc",
+    "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Tokyo/BEQqDSvtU4k/PAPER%20MESSAGE%20Kichijoji/940189.jpg?raw=true"
+  },
+  {
+      "city":"Kichijoji",
+    "startTime": "968.676",
+    "endTime": "985.275",
+    "place": "도쿄 키치조지 Tokyu Department Store Kichijoji",
+    "googlePlace": "Tokyu Department Store Kichijoji",
+    "describe": "1층 잡화 매장에서 비비안 웨스트우드 스타킹·모자·장갑 구경",
+    "realname": "확실함",
+    "emozi": "🧤🧦",
+    "category": "shopping",
+    "location": {
+      "lat": 35.70476300000001,
+      "lng": 139.578069
+    },
+    "id": "ChIJL0zsjkjuGGARPJDtGTowr2A",
+    "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Tokyo/BEQqDSvtU4k/Tokyu%20Department%20Store%20Kichijoji/972763.jpg?raw=true"
+  },
+  {
+  "city":"Kichijoji",
+    "startTime": "990.447",
+    "endTime": "999.623",
+    "place": "도쿄 키치조지 Satou (Menchi-katsu)",
+    "googlePlace": "Satou Kichijoji",
+    "describe": "멘치카츠 원조로 유명한 정육·델리, 대기열이 매우 김",
+    "realname": "확실함",
+    "emozi": "🥩🍖",
+    "category": "food",
+    "location": {
+      "lat": 35.703975,
+      "lng": 139.579041
+    },
+    "id": "ChIJEerD2EfuGGARNzol9ZsrCkg",
+    "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Tokyo/BEQqDSvtU4k/Satou%20Kichijoji/994910.jpg?raw=true"
+  },
+  {
+     "city":"Kichijoji",
+    "startTime": "1021.520",
+    "endTime": "1098.722",
+    "place": "도쿄 키치조지 이노카시라 공원",
+    "googlePlace": "Inokashira Park",
+    "describe": "키치조지 역 남쪽의 대형 공원. 공원 매점에서 생맥주 구매 가능, 입구 쪽 야키토리 판매 포인트 언급. 석양 보며 피크닉.",
+    "realname": "확실함",
+    "emozi": "🍺🌇",
+    "category": "sightseeing",
+    "location": {
+      "lat": 35.69974759999999,
+      "lng": 139.5737018
+    },
+    "id": "ChIJLWaVdDXuGGART_Pg1R3CZ4A",
+    "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Tokyo/BEQqDSvtU4k/Inokashira%20Park/1023063.jpg?raw=true"
+  },
+  {
+ "city":"Kichijoji",
+    "startTime": "1098.722",
+    "endTime": "1132.673",
+    "place": "도쿄 키치조지 나카미치도리 빈티지 거리 (유추)",
+    "googlePlace": "Tokyo Musashino Kichijoji Inokashira Park",
+    "describe": "이노카시라 공원 앞쪽 메인길에 늘어선 빈티지숍 골목. 다수의 중고 의류숍 밀집.",
+    "realname": "의심됨",
+    "emozi": "👗🧥",
+    "category": "shopping",
+    "location": {
+      "lat": 35.69974759999999,
+      "lng": 139.5737018
+    },
+    "id": "ChIJLWaVdDXuGGART_Pg1R3CZ4A",
+    "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Tokyo/BEQqDSvtU4k/Inokashira%20Park/1025482.jpg?raw=true"
+  },
+  {
+ "city":"Kichijoji",
+    "startTime": "1135.217",
+    "endTime": "1138.387",
+    "place": "도쿄 키치조지 L.L.Bean Kichijoji",
+    "googlePlace": "L.L.Bean Kichijoji Store",
+    "describe": "키치조지 중심가에 위치한 L.L.Bean 매장.",
+    "realname": "확실함",
+    "emozi": "🧢🛍️",
+    "category": "shopping",
+    "location": {
+      "lat": 35.701302,
+      "lng": 139.579067
+    },
+    "id": "ChIJ_RREIDjuGGARpg4TIQglzy0",
+    "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Tokyo/BEQqDSvtU4k/L.L.Bean%20Kichijoji%20Store/1148856.jpg?raw=true"
+  },
+  {
+      "city":"Chiyoda",
+    "startTime": "1153.193",
+    "endTime": "1162.911",
+    "place": "도쿄 마루노우치 도쿄역 마루노우치 역사",
+    "googlePlace": "Tokyo Station Marunouchi Station Building",
+    "describe": "도쿄역 앞 야경·외관 감상 후 역사 내부 돔 천장 관람.",
+    "realname": "확실함",
+    "emozi": "🚉📸",
+    "category": "sightseeing",
+    "location": {
+      "lat": 35.6812996,
+      "lng": 139.7670658
+    },
+    "id": "ChIJC3Cf2PuLGGAROO00ukl8JwA",
+    "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Tokyo/BEQqDSvtU4k/Tokyo%20Station%20Marunouchi%20Station%20Building/1157990.jpg?raw=true"
+  },
+  {
+      "city":"Chiyoda",
+    "startTime": "1166.665",
+    "endTime": "1181.847",
+    "place": "도쿄 마루노우치 KITTE 가든",
+    "googlePlace": "KITTE Garden",
+    "describe": "옛 우편집중국 건물 리뉴얼 쇼핑몰 KITTE 옥상정원. 도쿄역 야경·트리 감상 스팟.",
+    "realname": "확실함",
+    "emozi": "🏙️🎄",
+    "category": "sightseeing",
+    "location": {
+      "lat": 35.6795336,
+      "lng": 139.7654445
+    },
+    "id": "ChIJtZRvRvqLGGARdS57rQP2NEk",
+    "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Tokyo/BEQqDSvtU4k/KITTE%20Garden/1168375.jpg?raw=true"
+  },
+  {
+      "city":"Chiyoda",
+    "startTime": "1187.895",
+    "endTime": "1203.118",
+    "place": "도쿄 마루노우치 OVERRIDE KITTE MARUNOUCHI",
+    "googlePlace": "OVERRIDE KITTE MARUNOUCHI",
+    "describe": "KITTE 내 모자 전문 편집숍. 마감 직전 방문으로 구매는 보류.",
+    "realname": "확실함",
+    "emozi": "🧢🛍️",
+    "category": "shopping",
+    "location": {
+      "lat": 35.6798882,
+      "lng": 139.7651939
+    },
+    "id": "ChIJicJRNfqLGGARNGjsR4YYRoQ",
+    "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Tokyo/BEQqDSvtU4k/OVERRIDE%20KITTE%20MARUNOUCHI/1189396.jpg?raw=true"
+  },
+  {
+      "city":"Shibuya",
+    "startTime": "1264.137",
+    "endTime": "1393.767",
+    "place": "도쿄 시부야 SHIBUYA SKY",
+    "googlePlace": "SHIBUYA SKY",
+    "describe": "시부야 스크램블 스퀘어 14층에서 입장하는 전망대. 1층(데크) 추천 촬영 포인트, 클라우드 해먹 체험.",
+    "realname": "확실함",
+    "emozi": "🏙️📷",
+    "category": "sightseeing",
+    "location": {
+      "lat": 35.6586719,
+      "lng": 139.7019848
+    },
+    "id": "ChIJ4Rr2JWiLGGARcyRSHuZ-9G8",
+    "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Tokyo/BEQqDSvtU4k/SHIBUYA%20SKY/1271812.jpg?raw=true"
+  },
+  {
+      "city":"Shibuya",
+    "startTime": "1431.263",
+    "endTime": "1512.302",
+    "place": "도쿄 시부야 몬자야끼 Mohegi",
+    "googlePlace": "몬자야끼 Mohegi",
+    "describe": "시부야에서 철판 위에 조리하는 몬자야끼와 야키소바를 주문. 치즈 토핑 추천 메뉴 언급.",
+    "realname": "의심됨",
+    "emozi": "🥘🍺",
+    "category": "food",
+    "location": {
+      "lat": 35.6586719,
+      "lng": 139.7019848
+    },
+    "id": "ChIJ4Rr2JWiLGGARcyRSHuZ-9G8",
+    "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Tokyo/BEQqDSvtU4k/Unknown/1430512.jpg?raw=true"
+  },
+  {
+      "city":"Chuo City",
+    "startTime": "1519.226",
+    "endTime": "1550.507",
+    "place": "도쿄 츠키지 츠키지 장외시장",
+    "googlePlace": "Tsukiji Outer Market",
+    "describe": "활기찬 외부 시장. 참치꼬치, 계란말이 등 먹거리와 식자재 상점 밀집.",
+    "realname": "확실함",
+    "emozi": "🐟🍢",
+    "category": "sightseeing",
+    "location": {
+      "lat": 35.6647703,
+      "lng": 139.7702515
+    },
+    "id": "ChIJW2cLzSGLGGARXAKXv6EkbqI",
+    "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Tokyo/BEQqDSvtU4k/Tsukiji%20Outer%20Market/1522521.jpg?raw=true"
+  },
+  {
+      "city":"Chuo City",
+    "startTime": "1550.507",
+    "endTime": "1616.781",
+    "place": "도쿄 츠키지 키츠네야",
+    "googlePlace": "Kitsuneya",
+    "describe": "장외시장 명물 호르몬동(내장덮밥) 맛집. 대기줄 매우 김, 좌석 소수.",
+    "realname": "확실함",
+    "emozi": "🥩🍚",
+    "category": "food",
+    "location": {
+      "lat": 35.6657341,
+      "lng": 139.7698435
+    },
+    "id": "ChIJP0yI3d6LGGARAvFhG-bnXJU",
+    "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Tokyo/BEQqDSvtU4k/Kitsuneya/1552842.jpg?raw=true"
+  },
+  {
+      "city":"Taito City",
+    "startTime": "1662.327",
+    "endTime": "1680.053",
+    "place": "Hoshino Coffee Tsukiji",
+    "googlePlace": "Hoshino Coffee Tsukiji",
+    "describe": "장외시장 맞은편 건물 2층에서 휴식. 몽블랑 프렌치토스트와 커피로 디저트 타임.",
+    "realname": "의심됨",
+    "emozi": "☕🍰",
+    "category": "food",
+    "location": {
+      "lat": 35.7122703,
+      "lng": 139.7932155
+    },
+    "id": "ChIJ4biWLFGPGGARkUFAKUTqjrs",
+    "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Tokyo/BEQqDSvtU4k/Hoshino%20Coffee%20Tsukiji/1668416.jpg?raw=true"
+  },
+  {
+      "city":"Taito City",
+    "startTime": "1697.654",
+    "endTime": "1831.079",
+    "place": "도쿄 아사쿠사 센소지",
+    "googlePlace": "Senso-ji",
+    "describe": "아사쿠사의 대표 사찰. 석양 무렵 방문, 향 연기에 소원 비는 의식 체험.",
+    "realname": "확실함",
+    "emozi": "⛩️🕯️",
+    "category": "sightseeing",
+    "location": {
+      "lat": 35.7147651,
+      "lng": 139.7966553
+    },
+    "id": "ChIJ8T1GpMGOGGARDYGSgpooDWw",
+    "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Tokyo/BEQqDSvtU4k/Senso-ji/1699364.jpg?raw=true"
+  },
+  
+  {
+      "city":"Taito City",
+    "startTime": "1846.219",
+    "endTime": "1887.010",
+    "place": "도쿄 아사쿠사 아사쿠사요코초",
+    "googlePlace": "ASAKUSA YOKOCHO",
+    "describe": "유니클로가 있는 건물 4층의 푸드홀·이자카야 거리. 한산한 시간대에 가볍게 둘러봄.",
+    "realname": "확실함",
+    "emozi": "🍢🏮",
+    "category": "food",
+    "location": {
+      "lat": 35.7141245,
+      "lng": 139.7936921
+    },
+    "id": "ChIJ1S6OoRCPGGARhhb8Kr4eeyY",
+    "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Tokyo/BEQqDSvtU4k/ASAKUSA%20YOKOCHO/1855979.jpg?raw=true"
+  }
+]

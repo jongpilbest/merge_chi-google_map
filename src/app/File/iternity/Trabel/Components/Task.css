@@ -1,0 +1,19 @@
+.task {
+  background-color: white;
+
+
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  touch-action: none;
+   flex-direction: column;
+  
+}
+
+.checkbox {
+  height: 20px;
+  width: 20px;
+}
