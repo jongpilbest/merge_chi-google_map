@@ -1,4 +1,4 @@
-// app/api/google-place/route.js
+
 import { NextResponse } from "next/server";
 
 export async function GET(request) {
