@@ -7,7 +7,7 @@
     "describe": "아늑한 카페 분위기, 레몬 타르트와 피스타치오 타르트, 에스프레소·카푸치노",
     "realname": "의심됨",
     "emozi": "🥐☕️",
-    "Data":1,
+    "Data":"Experimental Data",
     "category": "Food and Beverage",
     "location": {
       "lat": 48.8517312,
@@ -59,7 +59,7 @@
     "googlePlace": "Hôtel de Sens",
     "describe": "외벽에 대포알이 박혀 있는 것으로 유명한 역사적 건물",
     "realname": "확실함",
-    "Data":1,
+    "Data":"Experimental Data",
     "emozi": "🏰💣",
     "category": "Attraction",
     "location": {
@@ -385,7 +385,7 @@
     "describe": "루브르 서쪽의 정원, 조각과 분수, 정돈된 수목로",
     "realname": "의심됨",
     "emozi": "🌳⛲",
-    "Data":1,
+    "Data":"Experimental Data",
     "category": "Attraction",
     "location": {
       "lat": 48.8606111,
@@ -439,7 +439,7 @@
     "realname": "의심됨",
     "emozi": "🛍️👜",
     "category": "Attraction",
-    "Data":1,
+    "Data":"Experimental Data",
     "location": {
       "lat": 48.8663533,
       "lng": 2.3394854
@@ -546,7 +546,7 @@
       "lat": 48.8737917,
       "lng": 2.2950275
     },
-    "Data":1,
+    "Data":"Experimental Data",
      "url":"XC5ssX_RZa0",
     "id": "ChIJjx37cOxv5kcRPWQuEW5ntdk",
     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/Avenue%20des%20Champs-%C3%89lys%C3%A9es/1198463.jpg?raw=true"},
@@ -657,7 +657,7 @@
     "endTime": "1322.0",
     "place": "파리 르 마레 Marché des Enfants Rouges",
     "googlePlace": "suan Thai",
-    "Data":1,
+    "Data":"Experimental Data",
     "describe": "우연히 들어간 태국 음식점 한적하고, 음식이 정말 맛있음.",
     "realname": "확실함",
     "emozi": "🍜🌶️",

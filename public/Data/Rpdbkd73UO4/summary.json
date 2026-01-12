@@ -1,0 +1,242 @@
+[
+  {
+    "startTime": "37.860",
+    "endTime": "62.480",
+    "place": "Marseille La Canebière",
+    "googlePlace": "Marseille La Canebière",
+    "describe": "마르세유의 대표 쇼핑 대로로, Vieux Port에서 Capucines까지 이어지는 폭 넓은 거리. 카페·레스토랑과 럭셔리 브랜드가 즐비",
+    "realname": "확실함",
+    "emozi": "🛍️☕️",
+    "category": "Shopping",
+    "location": {
+      "lat": 43.2971924,
+      "lng": 5.3798992
+    },
+    "id": "ChIJxdNkSrzAyRIRaTONSFQTPGA"
+  },
+  {
+    "startTime": "71.920",
+    "endTime": "103.280",
+    "place": "Marseille Palais Longchamp",
+    "googlePlace": "Marseille Palais Longchamp",
+    "describe": "1869년 건립의 기념궁전으로 분수·수경·콜로네이드가 유명. 미술관·자연사박물관과 정원이 모인 복합 공간",
+    "realname": "확실함",
+    "emozi": "🏛️⛲",
+    "category": "Attraction",
+    "location": {
+      "lat": 43.30426689999999,
+      "lng": 5.3946029
+    },
+    "id": "ChIJgUObVWK_yRIRd6M73U2Mdeg"
+  },
+  {
+    "startTime": "86.320",
+    "endTime": "90.640",
+    "place": "Marseille Musée des Beaux-Arts de Marseille",
+    "googlePlace": "Marseille Musée des Beaux-Arts de Marseille",
+    "describe": "마르세유의 대표 미술관으로 Palais Longchamp 단지 내 위치",
+    "realname": "확실함",
+    "emozi": "🖼️🎨",
+    "category": "Attraction",
+    "location": {
+      "lat": 43.3046188,
+      "lng": 5.393891099999999
+    },
+    "id": "ChIJLT55rn6_yRIRTW4ZPJNG0dI"
+  },
+  {
+    "startTime": "86.320",
+    "endTime": "90.640",
+    "place": "Marseille Muséum d'Histoire Naturelle de Marseille",
+    "googlePlace": "Paris Musée des Beaux-Arts",
+    "describe": "Palais Longchamp 단지 내 자연사 박물관",
+    "realname": "의심됨",
+    "emozi": "🐚🦴",
+    "category": "Attraction",
+    "location": {
+      "lat": 48.8575475,
+      "lng": 2.3513765
+    },
+    "id": "ChIJD7fiBh9u5kcRYJSMaMOCCwQ"
+  },
+  {
+    "startTime": "96.760",
+    "endTime": "101.860",
+    "place": "Marseille Parc Longchamp",
+    "googlePlace": "Marseille Parc Longchamp",
+    "describe": "Palais 뒤편의 프랑스식 정원. 과거 동물원이 있던 공원",
+    "realname": "확실함",
+    "emozi": "🌳⛲",
+    "category": "Attraction",
+    "location": {
+      "lat": 43.3049889,
+      "lng": 5.395858899999999
+    },
+    "id": "ChIJ6-HJxmO_yRIRZlXID_i7E6E"
+  },
+  {
+    "startTime": "110.500",
+    "endTime": "134.800",
+    "place": "Marseille Le Panier",
+    "googlePlace": "Marseille Le Panier",
+    "describe": "구 항구 북쪽의 역사 지구. 오랜 골목과 오커색 주택, 소형 상점·카페가 모여 산책과 사진에 좋은 동네",
+    "realname": "확실함",
+    "emozi": "🏘️📸",
+    "category": "Attraction",
+    "location": {
+      "lat": 43.299913,
+      "lng": 5.3680905
+    },
+    "id": "ChIJhc9ghsLAyRIRqhjj1maoKOA"
+  },
+  {
+    "startTime": "155.920",
+    "endTime": "168.720",
+    "place": "Marseille Calanque d'En-Vau",
+    "googlePlace": "Cassis Calanques d'En-Vau",
+    "describe": "절벽 지형을 1~2시간 하이킹해 도달하는 외딴 해변. 맑은 바다와 극적인 절벽 경관",
+    "realname": "의심됨",
+    "emozi": "🏞️🌊",
+    "category": "Attraction",
+    "location": {
+      "lat": 43.215134,
+      "lng": 5.53712
+    },
+    "id": "ChIJNeR-a8a6yRIRMASX_aUZCAQ"
+  },
+  {
+    "startTime": "173.640",
+    "endTime": "183.840",
+    "place": "Marseille Plage des Catalans",
+    "googlePlace": "Marseille Plage des Catalans",
+    "describe": "도심에서 도보 접근 가능한 해변. 한여름 빠른 물놀이와 피플워칭에 적합",
+    "realname": "확실함",
+    "emozi": "🏖️🌊",
+    "category": "Attraction",
+    "location": {
+      "lat": 43.2906568,
+      "lng": 5.3554392
+    },
+    "id": "ChIJ1441ZdfAyRIRIc4Qx61BZQY"
+  },
+  {
+    "startTime": "188.640",
+    "endTime": "197.760",
+    "place": "Marseille Saint Croix beach",
+    "googlePlace": "Marseille Saint Croix Beach",
+    "describe": "마르세유 서쪽의 가족 친화적 해변. 잔잔하고 터키석빛 바다",
+    "realname": "의심됨",
+    "emozi": "🏖️👨‍👩‍👧‍👦",
+    "category": "Attraction",
+    "location": {
+      "lat": 43.3025742,
+      "lng": 5.369074299999999
+    },
+    "id": "ChIJM1PaREO_yRIRIAKX_aUZCAQ"
+  },
+  {
+    "startTime": "203.280",
+    "endTime": "240.340",
+    "place": "Marseille Fort Saint-Jean",
+    "googlePlace": "Marseille Fort Saint-Jean",
+    "describe": "1660년 축성된 해안 요새. 성벽 산책로에서 도시·바다 조망, 인근 역사 지구 및 국립박물관과 연결",
+    "realname": "확실함",
+    "emozi": "🏰🌉",
+    "category": "Attraction",
+    "location": {
+      "lat": 43.2953604,
+      "lng": 5.3617108
+    },
+    "id": "ChIJQyLpWdvAyRIR3Wl_x7vWO4E"
+  },
+  {
+    "startTime": "248.340",
+    "endTime": "283.740",
+    "place": "Marseille Château d'If",
+    "googlePlace": "Marseille Château d'If",
+    "describe": "16세기 섬 요새이자 18세기 감옥. 『몬테크리스토 백작』의 배경으로 유명하며 전망과 야외 테라스 식당이 있음",
+    "realname": "의심됨",
+    "emozi": "🏝️🏰",
+    "category": "Attraction",
+    "location": {
+      "lat": 43.2798587,
+      "lng": 5.325165
+    },
+    "id": "ChIJFZv_M7_AyRIRfr31NFtB3RA"
+  },
+  {
+    "startTime": "293.620",
+    "endTime": "328.500",
+    "place": "Marseille Mucem",
+    "googlePlace": "Marseille Mucem",
+    "describe": "유럽·지중해 문명 박물관. 현대 건축과 Fort Saint-Jean을 잇는 115m 보행교가 특징",
+    "realname": "확실함",
+    "emozi": "🏛️🌉",
+    "category": "Attraction",
+    "location": {
+      "lat": 43.2966941,
+      "lng": 5.3610825
+    },
+    "id": "ChIJ7fOdj5rAyRIR_jlSzkaC86U"
+  },
+  {
+    "startTime": "323.620",
+    "endTime": "328.500",
+    "place": "Marseille Fort Saint-Jean",
+    "googlePlace": "Marseille Fort Saint-Jean",
+    "describe": "뮤셈과 115m 보행교로 연결된 해안 요새",
+    "realname": "확실함",
+    "emozi": "🏰🌉",
+    "category": "Attraction",
+    "location": {
+      "lat": 43.2953604,
+      "lng": 5.3617108
+    },
+    "id": "ChIJQyLpWdvAyRIR3Wl_x7vWO4E"
+  },
+  {
+    "startTime": "335.700",
+    "endTime": "357.460",
+    "place": "Marseille Cathédrale La Major",
+    "googlePlace": "Marseille Cathédrale La Major",
+    "describe": "비잔틴-로마 양식, 녹·백 석재 줄무늬, 최대 3,000명 수용의 대성당",
+    "realname": "확실함",
+    "emozi": "⛪🏛️",
+    "category": "Attraction",
+    "location": {
+      "lat": 43.2992976,
+      "lng": 5.364701699999999
+    },
+    "id": "ChIJs0riBr3AyRIRVtgGX43TIUU"
+  },
+  {
+    "startTime": "366.340",
+    "endTime": "394.580",
+    "place": "Marseille Basilique Notre-Dame de la Garde",
+    "googlePlace": "Marseille Basilique Notre-Dame de la Garde",
+    "describe": "네오비잔틴 양식의 언덕 위 대성당, 금도금 마돈나 상과 도시 전경, 버스로 접근 용이",
+    "realname": "확실함",
+    "emozi": "⛪🌅",
+    "category": "Attraction",
+    "location": {
+      "lat": 43.2839533,
+      "lng": 5.3712377
+    },
+    "id": "ChIJ9Z24dsnAyRIR7S3utZVPJYk"
+  },
+  {
+    "startTime": "400.540",
+    "endTime": "429.180",
+    "place": "Marseille Vieux-Port de Marseille",
+    "googlePlace": "Marseille Le Vieux Port",
+    "describe": "레저보트 중심의 오래된 대형 항구, 카페·레스토랑 산책로, 샤토 디프·칼랑크행 페리 출발지",
+    "realname": "의심됨",
+    "emozi": "🚤⚓",
+    "category": "Attraction",
+    "location": {
+      "lat": 43.3025742,
+      "lng": 5.369074299999999
+    },
+    "id": "ChIJM1PaREO_yRIRIAKX_aUZCAQ"
+  }
+]

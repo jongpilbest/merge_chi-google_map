@@ -59,7 +59,7 @@ const fetchPhoto = async () => {
     onClick={()=>click_border()}
 
     
-    className="relative w-full h-42 flex flex-col bg-white rounded-md shadow-md border border-gray-200 hover:shadow-lg transition overflow-hidden cursor-pointer group">
+    className="relative w-full flex-[1] flex flex-col bg-white rounded-md shadow-md border border-gray-200 hover:shadow-lg transition overflow-hidden cursor-pointer group">
       {/* 썸네일 */}
       <div className="w-full aspect-[4/3] bg-gray-200 overflow-hidden">
       {

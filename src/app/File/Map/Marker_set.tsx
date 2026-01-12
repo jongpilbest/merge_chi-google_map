@@ -20,20 +20,19 @@ const { like_location, clicked_marker_id,color_location ,video_mareker_id,catego
 
 
   // ✅ 조건문은 JSX 밖에서 처리
- if (el.id === clicked_marker_id) {
-  colorCode = ['purple', 1];
-}
-else if(el.id==video_mareker_id){
+ 
+ if(el.id==video_mareker_id){
   colorCode=['gradient_green', 1]
 }
 
+else if (el.id === clicked_marker_id) {
+  colorCode = ['purple', 1];
+}
 else if(el.category==category_name){
   colorCode=['gradient_category', 1]
 }
 
-else if(el.Data==1){
-  colorCode=['gradient_data',1]
-}
+
 
 else if (like_location.hasOwnProperty(el.id)) {
   if (color_location.hasOwnProperty(el.id)) {
@@ -41,6 +40,9 @@ else if (like_location.hasOwnProperty(el.id)) {
   } else {
     colorCode = ['pink',  1];
   }
+}
+else if(el.Data==category_name){
+  colorCode=['gradient_data',1]
 }
 
   return (

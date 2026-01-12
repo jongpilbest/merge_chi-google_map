@@ -48,6 +48,9 @@ const VideoPlayer = forwardRef(function VideoPlayer({ url }, ref) {
         const comment_filter=comment&&Object.values(comment).map(arr => arr[0]).flat().filter((el)=>el.url==youtube_cuurent_url).filter((el)=>el.startTime <= playedSeconds &&
          playedSeconds <= el.endTime);
        
+         // console.log(comment_filter,'?', playedSeconds)
+
+
         if(comment_filter[0]){
               return comment_filter[0].id
         }
@@ -60,7 +63,9 @@ const VideoPlayer = forwardRef(function VideoPlayer({ url }, ref) {
   const lastActiveId =useRef(null);
 
   const handleProgress = ({ playedSeconds }) => {
+ 
   const activeId = getActiveMarkerId(playedSeconds, comment);
+
 
       if (activeId&& activeId !== lastActiveId.current) {
         lastActiveId.current = activeId;

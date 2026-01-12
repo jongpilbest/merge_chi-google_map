@@ -1,0 +1,275 @@
+[
+  {
+    "city":"Nice",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true",
+
+    "startTime": "114.240",
+    "endTime": "172.960",
+    "place": "Nice Old Town Vieux Nice",
+    "googlePlace": "Nice Vieux Nice",
+    "describe": "파스텔 골목과 바로크 건축이 밀집한 역사 지구",
+    "realname": "확실함",
+    "emozi": "🏛️🧭",
+    "category": "Attraction",
+    "location": {
+      "lat": 43.6971895,
+      "lng": 7.277606899999999
+    },
+    "id": "ChIJPYkTLwvQzRIRa-NNOMg2Cuc"
+  },
+  {"city":"Nice",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true",
+     
+    "startTime": "126.440",
+    "endTime": "131.440",
+    "place": "Nice Centre Promenade du Paillon",
+    "googlePlace": "Nice Promenade du Paillon",
+    "describe": "구시가지와 바다를 잇는 녹지 공원·분수대 산책로",
+    "realname": "확실함",
+    "emozi": "🌿💦",
+    "category": "Attraction",
+    "location": {
+      "lat": 43.6975383,
+      "lng": 7.2718495
+    },
+    "id": "ChIJo4fztaTazRIR2itWIoTnpZ4"
+  },
+  {"city":"Nice",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true",
+     
+    "startTime": "177.240",
+    "endTime": "182.640",
+    "place": "Nice Vieux Nice Place Rossetti",
+    "googlePlace": "Nice Place Rossetti",
+    "describe": "구시가지 중심의 작은 광장, 성당과 젤라토 가게로 유명",
+    "realname": "확실함",
+    "emozi": "⛲🏘️",
+    "category": "Attraction",
+    "location": {
+      "lat": 43.697283,
+      "lng": 7.2761813
+    },
+    "id": "ChIJPY94s7zazRIRb2wYZvNjtLQ"
+  },
+  {"city":"Nice",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true",
+     
+    "startTime": "182.640",
+    "endTime": "188.600",
+    "place": "Nice Vieux Nice Fenocchio Glacier",
+    "googlePlace": "Nice Fenocchio Glacier",
+    "describe": "다채로운 맛으로 유명한 젤라토 아이스크림 숍",
+    "realname": "확실함",
+    "emozi": "🍦😋",
+    "category": "Food and Beverage",
+    "location": {
+      "lat": 43.7101728,
+      "lng": 7.261953200000001
+    },
+    "id": "ChIJMS2FahDQzRIRcJqX_aUZCAQ"
+  },
+  {"city":"Nice",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true",
+     
+    "startTime": "188.600",
+    "endTime": "199.800",
+    "place": "Nice Vieux Nice Cours Saleya",
+    "googlePlace": "Nice Cours Saleya",
+    "describe": "아침엔 꽃·식재료, 월요일엔 골동품 시장이 열리는 장터 거리",
+    "realname": "확실함",
+    "emozi": "🌼🛍️",
+    "category": "Shopping",
+    "location": {
+      "lat": 43.695607,
+      "lng": 7.2749227
+    },
+    "id": "ChIJO2a3IKPazRIRvoDhP3QCfcE"
+  },
+  {"city":"Nice",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true",
+     
+    "startTime": "220.760",
+    "endTime": "241.360",
+    "place": "Nice Castle Hill Parc de la Colline du Château",
+    "googlePlace": "Nice Parc de la Colline du Château",
+    "describe": "니스를 한눈에 담는 성채 언덕 공원, 여러 전망 포인트와 유적",
+    "realname": "확실함",
+    "emozi": "🏞️📸",
+    "category": "Attraction",
+    "location": {
+      "lat": 43.6959352,
+      "lng": 7.279660100000001
+    },
+    "id": "ChIJ87pSBQHQzRIR7gulsDlUpa8"
+  },
+  {"city":"Nice",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true",
+     
+    "startTime": "231.040",
+    "endTime": "236.660",
+    "place": "Nice Castle Hill Ascenseur du Château",
+    "googlePlace": "Nice Ascenseur du Château",
+    "describe": "성채 언덕으로 올라가는 무료 엘리베이터",
+    "realname": "확실함",
+    "emozi": "🛗⬆️",
+    "category": "Transportation",
+    "location": {
+      "lat": 43.69443829999999,
+      "lng": 7.279220899999999
+    },
+    "id": "ChIJUasMo73azRIRVyhbNaOQXOQ"
+  },
+  {"city":"Nice",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true",
+     
+    "startTime": "241.360",
+    "endTime": "252.760",
+    "place": "Nice Castle Hill Cimetière du Château",
+    "googlePlace": "Nice Cimetière du Château",
+    "describe": "성채 언덕 북쪽의 시립 공동묘지, 유명 인사 묘소가 있음",
+    "realname": "확실함",
+    "emozi": "🕯️🌲",
+    "category": "Attraction",
+    "location": {
+      "lat": 43.6980274,
+      "lng": 7.280731299999999
+    },
+    "id": "ChIJz8KV8LvazRIR5CSckOVu8iI"
+  },
+  {"city":"Nice",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true",
+     
+    "startTime": "241.360",
+    "endTime": "252.760",
+    "place": "Nice Castle Hill Cimetière Israélite de Nice",
+    "googlePlace": "Nice Cimetière Israélite de Nice",
+    "describe": "작은 유대인 묘지, 2차대전 희생자 추모 벽이 인상적",
+    "realname": "확실함",
+    "emozi": "🕯️🕊️",
+    "category": "Attraction",
+    "location": {
+      "lat": 43.697066,
+      "lng": 7.279675499999999
+    },
+    "id": "ChIJbUsxxqPazRIRH6isI5rxhKQ"
+  },
+  {"city":"Nice",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true",
+     
+    "startTime": "269.120",
+    "endTime": "275.960",
+    "place": "Nice Castle Hill Cascade du Château",
+    "googlePlace": "Nice Cascade du Château",
+    "describe": "언덕 정상의 인공 폭포, 사진 명소이자 최고의 전망 포인트",
+    "realname": "확실함",
+    "emozi": "💧🌅",
+    "category": "Attraction",
+    "location": {
+      "lat": 43.6957518,
+      "lng": 7.2794873
+    },
+    "id": "ChIJIWN_rNLbzRIR9jhnI7xfMMQ"
+  },
+  {"city":"Nice",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true",
+     
+    "startTime": "303.640",
+    "endTime": "310.560",
+    "place": "Nice Lympia Port de Nice",
+    "googlePlace": "Nice Port de Nice",
+    "describe": "리므피아 분지의 니스 항구, 성채 언덕 반대편 전망",
+    "realname": "확실함",
+    "emozi": "⚓⛵",
+    "category": "Attraction",
+    "location": {
+      "lat": 43.6953903,
+      "lng": 7.285138499999999
+    },
+    "id": "ChIJ0dJeyrjazRIRy2OfjOzj1jU"
+  },
+  {"city":"Nice",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true",
+     
+    "startTime": "374.040",
+    "endTime": "386.120",
+    "place": "Nice Mont Boron Boulevard Franck Pilatte",
+    "googlePlace": "Nice Boulevard Franck Pilatte",
+    "describe": "포트 동쪽 해안 도로, 자갈 없는 코지한 해안 구간",
+    "realname": "확실함",
+    "emozi": "🏖️🌊",
+    "category": "Attraction",
+    "location": {
+      "lat": 43.6926808,
+      "lng": 7.2906406
+    },
+    "id": "ChIJkyOj0MHazRIRmACprVYmmbg"
+  },
+  {"city":"Nice",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true",
+     
+    "startTime": "46.920",
+    "endTime": "104.040",
+    "place": "Nice Seafront Promenade des Anglais",
+    "googlePlace": "Nice Promenade des Anglais",
+    "describe": "지중해를 따라 이어지는 니스 대표 해안 산책로, 19세기 영국인들이 조성",
+    "realname": "확실함",
+    "emozi": "🌊😎",
+    "category": "Attraction",
+    "location": {
+      "lat": 43.6949772,
+      "lng": 7.2678307
+    },
+    "id": "ChIJ0VoczFnQzRIR737WTal1fso"
+  },
+  {"city":"Nice",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true",
+     
+    "startTime": "552.16",
+    "endTime": "590.32",
+    "place": "Nice City Center Cathédrale Saint-Nicolas de Nice",
+    "googlePlace": "Nice Cathédrale Saint-Nicolas de Nice",
+    "describe": "니스 중심부의 러시아 정교 대성당. 서유럽 2번째로 큰 동방 정교 성당(1912년 개관), 내부 성화와 예술 컬렉션, 지하 납골당의 작은 박물관이 있어 역사·후원자(니콜라이 2세) 소개",
+    "realname": "확실함",
+    "emozi": "⛪️🖼️",
+    "category": "Attraction",
+    "location": {
+      "lat": 43.7038984,
+      "lng": 7.253944
+    },
+    "id": "ChIJnwGbfqDazRIR4rkavLt2r3U"
+  },
+  {"city":"Nice",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true",
+     
+    "startTime": "773.80",
+    "endTime": "784.72",
+    "place": "Nice Centre-Ville Taulissa",
+    "googlePlace": "Nice Le Victoria Hotel Taulissa",
+    "describe": "니스 도심 5성급 Le Victoria Hotel 옥상 루프탑. 전망이 뛰어나며 음료 가격대는 높은 편, 영상에서는 커피를 즐김",
+    "realname": "의심됨",
+    "emozi": "☕️🌇",
+    "category": "Food and Beverage",
+    "location": {
+      "lat": 43.7101728,
+      "lng": 7.261953200000001
+    },
+    "id": "ChIJMS2FahDQzRIRcJqX_aUZCAQ"
+  },
+  {"city":"Nice",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true",
+     
+    "startTime": "773.800",
+    "endTime": "788.120",
+    "place": "Nice Le Victoria Hotel Taulissa",
+    "googlePlace": "Nice Taulissa",
+    "describe": "니스 중심부 5성급 Le Victoria Hotel 옥상에 위치한 신규 루프탑 바/카페. 음료 가격대는 높은 편이지만 전망과 분위기가 뛰어나며, 커피를 마셨다고 언급.",
+    "realname": "확실함",
+    "emozi": "🍹☕",
+    "category": "Food and Beverage",
+    "location": {
+      "lat": 43.6964057,
+      "lng": 7.266587599999999
+    },
+    "id": "ChIJZxQGO_zbzRIRlk_SMwz4NXg"
+  }
+]

@@ -25,18 +25,6 @@ tagging: "#BeachVibes #FrenchRiviera",
     },
     image:'https://i.namu.wiki/i/PWVCRixpMptZakc9JEJbs_ShJdJe4V-PzPN01ZjCnfRTQ4pSZm4nmC-pgGJmboU-2F4_aCI4_WHtBhr45EZwNw.webp'
     },
-     {
-    city:"Lyon",
-    name: "리옹",
- description: "'프랑스의 미식 수도'로 불리며, 르네상스 양식의 구시가지와 뛰어난 요리 문화를 보유하고 있습니다.",
-tagging: "#FoodieParadise #OldTownCharm",
-      place_id:'ChIJl4foalHq9EcR8CG75CqrCAQ',
-    location: {
-      "lat":  45.764043,
-      "lng": 4.835659
-    },
-    image:'https://i.namu.wiki/i/QRwsTsS8UdqI46usLMrRZVR2W-pgYHPY5uUeDTKjfVMeOozaKjFtotdqJlkHfuzcLu7ryJPGPwvTUuYQKRZFPw.webp'
-    },
  {
     city:"Marseille",
     name: "마르세유",
@@ -48,9 +36,32 @@ tagging: "#PortCity #MediterraneanVibe",
       "lng": 5.369074
     },
     image:'https://i.namu.wiki/i/LGkH5-oqm9VxWWi7Arn7wm8lqsRGXP43IxVfKpU9piZ3mkh7Va4D-ryDA8JH7Keb_O7UnUS27N7GNBEw2SasPQ.webp'
-    }
+    },
+     {
+    city:"Newyork",
+    name: "뉴욕",
+ description: "세계 금융과 문화의 중심지로, 초고층 빌딩과 다양한 문화가 어우러진 역동적인 대도시입니다.",
+tagging: "#GlobalCity #CulturalHub",
+      place_id:'ChIJOwg_06VPwokRYv534QaPC8g',
+    location: {
+      "lat":  40.698078,
+      "lng": -74.035149
+    },
+    image:'https://i.namu.wiki/i/GhRScrmtLIlWQgtu0Yih4Udh1dPrMQ9a__J3mr8Q-q4bDBwQ2pzif0NXcDJvzSph-R5I-nWcjN9R3RjVknqmKg.webp'
+    },
 
-
+//  {
+//    city:"Lyon",
+//    name: "리옹",
+// description: "'프랑스의 미식 수도'로 불리며, 르네상스 양식의 구시가지와 뛰어난 요리 문화를 보유하고 있습니다.",
+//tagging: "#FoodieParadise #OldTownCharm",
+//      place_id:'ChIJl4foalHq9EcR8CG75CqrCAQ',
+//    location: {
+//      "lat":  45.764043,
+//      "lng": 4.835659
+//    },
+//    image:'https://i.namu.wiki/i/QRwsTsS8UdqI46usLMrRZVR2W-pgYHPY5uUeDTKjfVMeOozaKjFtotdqJlkHfuzcLu7ryJPGPwvTUuYQKRZFPw.webp'
+//    },
 ]
 
 export default PAris_Data

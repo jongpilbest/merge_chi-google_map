@@ -280,7 +280,7 @@ const Travel_Day2 = function(){
        const Route_location= filter_comment.map((el)=>Object.values(el.location))
 
       //여기 뭔지 다시 확인해줘  
-      console.log(Route_location, original_route,pick_day)
+   //   console.log(Route_location, original_route,pick_day)
    
   const hey = [...original_route];
   hey[pick_day] = Route_location;

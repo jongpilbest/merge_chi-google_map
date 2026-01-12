@@ -114,7 +114,7 @@ export default function Map_viewer({id ,handleMarkerClick }:MapViewerProps  ) {
       </div>
 
       <div className="py-3 ">
-        {el[0].describe && <p>{el[0].describe}</p>}
+        {el[0].describe && <p className='text-sm '>{el[0].describe}</p>}
       </div>
     </div>
   ))

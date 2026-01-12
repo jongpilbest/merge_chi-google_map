@@ -1,0 +1,342 @@
+[
+  {
+    "startTime": "152.000",
+    "endTime": "164.000",
+    "place": "Nice Promenade des Anglais",
+    "googlePlace": "Nice Promenade des Anglais",
+    "describe": "해변을 따라 이어지는 산책로. 걷기·러닝·사이클링과 파란 의자에서 바다 감상 가능.",
+    "realname": "확실함",
+    "emozi": "🏖️🚶‍♀️",
+    "category": "Attraction",
+    "location": {
+      "lat": 43.6949772,
+      "lng": 7.2678307
+    },
+    "id": "ChIJ0VoczFnQzRIR737WTal1fso",
+    "city":"Nice",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true"
+  },
+  {
+    "startTime": "172.000",
+    "endTime": "177.000",
+    "place": "Nice Hôtel Albert 1er",
+    "googlePlace": "Nice Hotel Albert Premier",
+    "describe": "레드 호프온·호프오프 버스의 출발 지점 앞에 있는 중심가 호텔.",
+    "realname": "의심됨",
+    "emozi": "🏨🚌",
+    "category": "Accommodation",
+    "location": {
+      "lat": 43.7101728,
+      "lng": 7.261953200000001
+    },
+    "id": "ChIJMS2FahDQzRIRcJqX_aUZCAQ",
+        "city":"Nice",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true"
+  },
+  {
+    "startTime": "192.000",
+    "endTime": "202.000",
+    "place": "Nice Vélobleu (Bike Share)",
+    "googlePlace": "Nice, France - Vélos Bleu",
+    "describe": "니스 공공 자전거 대여. 소액 구독 후 첫 1시간 약 1유로로 이용 가능.",
+    "realname": "의심됨",
+    "emozi": "🚲🔵",
+    "category": "Transportation",
+    "location": {
+      "lat": 43.7101728,
+      "lng": 7.261953200000001
+    },
+    "id": "ChIJMS2FahDQzRIRcJqX_aUZCAQ",
+        "city":"Nice",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true"
+  },
+  {
+    "startTime": "232.000",
+    "endTime": "236.000",
+    "place": "Nice Jardin Albert 1er",
+    "googlePlace": "Nice Promenade des Anglais",
+    "describe": "프로므나드 데 장글레 옆 정원. 관광 전기열차 출발 지점 인근.",
+    "realname": "의심됨",
+    "emozi": "🌳🚂",
+    "category": "Attraction",
+    "location": {
+      "lat": 43.6949772,
+      "lng": 7.2678307
+    },
+    "id": "ChIJ0VoczFnQzRIR737WTal1fso",
+        "city":"Nice",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true"
+  },
+  {
+    "startTime": "285.000",
+    "endTime": "291.000",
+    "place": "Nice René Socca",
+    "googlePlace": "Nice Vieux-Nice René Socca",
+    "describe": "현지 특선인 소카 등 니스 전통 음식을 즐길 수 있는 유명 맛집.",
+    "realname": "의심됨",
+    "emozi": "🫓🍷",
+    "category": "Food and Beverage",
+        "city":"Nice",
+    "location": {
+      "lat": 43.7000215,
+      "lng": 7.2789192
+    },
+    "id": "ChIJrVd0ALvazRIRgZ9_9PW3Zwo",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true"
+  },
+  {
+    "startTime": "291.000",
+    "endTime": "299.000",
+    "place": "Nice Fenocchio Glacier",
+    "googlePlace": "Nice René Socca",
+    "describe": "다양하고 기발한 맛으로 유명한 아이스크림 가게.",
+    "realname": "의심됨",
+    "emozi": "🍨🍦",
+        "city":"Nice",
+    "category": "Food and Beverage",
+    "location": {
+      "lat": 43.7000215,
+      "lng": 7.2789192
+    },
+    "id": "ChIJrVd0ALvazRIRgZ9_9PW3Zwo",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true"
+  },
+  {
+    "startTime": "299.000",
+    "endTime": "308.000",
+    "place": "Nice Cours Saleya (Flower Market)",
+    "googlePlace": "Nice Cours Saleya",
+    "describe": "올드타운의 시장 거리. 매일 오전 운영해 오후 1시까지, 월요일엔 앤티크 마켓으로 전환.",
+    "realname": "확실함",
+    "emozi": "🌼🛍️",
+        "city":"Nice",
+    "category": "Shopping",
+    "location": {
+      "lat": 43.695607,
+      "lng": 7.2749227
+    },
+    "id": "ChIJO2a3IKPazRIRvoDhP3QCfcE",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true"
+  },
+  {
+    "startTime": "30.000",
+    "endTime": "111.000",
+    "place": "Nice Castle Hill (Colline du Château)",
+    "googlePlace": "Nice Colline du Château",
+    "describe": "니스의 대표 전망 공원으로 베이·항구·알프스까지 조망 가능. 폭포, 성채 유적, 산책로, 카페, 무료 엘리베이터가 있음.",
+    "realname": "확실함",
+    "emozi": "🏞️🌊",
+        "city":"Nice",
+    "category": "Attraction",
+    "location": {
+      "lat": 43.6959352,
+      "lng": 7.279660100000001
+    },
+    "id": "ChIJ87pSBQHQzRIR7gulsDlUpa8",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true"
+  },
+  {
+    "startTime": "331.000",
+    "endTime": "357.000",
+    "place": "Nice Le Galet",
+    "googlePlace": "Nice Le Galet",
+    "describe": "해변 레스토랑. 메인 요리 약 20유로부터, 피자와 아티초크 샐러드, 바다 전망 좌석이 특징.",
+    "realname": "확실함",
+    "emozi": "🍕🌊",
+        "city":"Nice",
+    "category": "Food and Beverage",
+    "location": {
+      "lat": 43.6946519,
+      "lng": 7.2659973
+    },
+    "id": "ChIJr0ToEaDazRIRb1K13y58mUs",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true"
+  },
+  {
+    "startTime": "38.000",
+    "endTime": "43.000",
+    "place": "Nice Baie des Anges",
+    "googlePlace": "Nice Baie des Anges",
+    "describe": "니스 앞바다의 대표 만으로 캐슬힐에서 내려다보는 아름다운 전경으로 유명.",
+    "realname": "의심됨",
+        "city":"Nice",
+    "emozi": "🌊🏖️",
+    "category": "Attraction",
+    "location": {
+      "lat": 43.7101728,
+      "lng": 7.261953200000001
+    },
+    "id": "ChIJMS2FahDQzRIRcJqX_aUZCAQ",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true"
+  },
+  {
+    "startTime": "387.000",
+    "endTime": "434.000",
+    "place": "Nice Musée National Marc Chagall",
+    "googlePlace": "Nice Chagall Museum",
+    "describe": "샤갈이 자신의 구상으로 개관한 프랑스 국립 미술관. ‘아가의 노래’ 방과 스테인드글라스가 유명.",
+    "realname": "의심됨",
+    "emozi": "🖼️🎨",
+        "city":"Nice",
+    "category": "Attraction",
+    "location": {
+      "lat": 43.7094754,
+      "lng": 7.270165099999999
+    },
+    "id": "ChIJI9rouKvazRIRqmGBA1K3IzQ",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true"
+  },
+  {
+    "startTime": "408.000",
+    "endTime": "469.000",
+    "place": "Nice  Musée National Marc Chagall",
+    "googlePlace": "Nice Musée National Marc Chagall",
+    "describe": "샤갈의 아이디어로 설계된 프랑스 국립 미술관. ‘Song of the Songs’ 전시실, 스테인드글라스, 대형 모자이크가 있으며 가든 카페와 샵, 2023 특별전 'Chagall and Me' 진행",
+    "realname": "확실함",
+    "emozi": "🎨🖼️",
+        "city":"Nice",
+    "category": "Attraction",
+    "location": {
+      "lat": 43.7094754,
+      "lng": 7.270165099999999
+    },
+    "id": "ChIJI9rouKvazRIRqmGBA1K3IzQ",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true"
+  },
+  {
+    "startTime": "486.000",
+    "endTime": "500.000",
+    "place": "Èze  Èze Village",
+    "googlePlace": "Eze Village",
+    "describe": "니스에서 약 30분, 코트다쥐르에서 가장 유명한 중세 마을 중 하나로 성수기 혼잡",
+    "realname": "의심됨",
+    "emozi": "🏰🌄",
+        "city":"Nice",
+    "category": "Attraction",
+    "location": {
+      "lat": 43.7278189,
+      "lng": 7.361791999999999
+    },
+    "id": "ChIJQUWvSWHDzRIRQJyX_aUZCAQ",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true"
+  },
+  {
+    "startTime": "489.000",
+    "endTime": "500.000",
+        "city":"Nice",
+    "place": "Saint-Paul-de-Vence  Saint-Paul-de-Vence",
+    "googlePlace": "Saint-Paul-de-Vence Saint-Paul-de-Vence",
+    "describe": "코트다쥐르 대표 중세 마을로 방문객이 많은 명소",
+    "realname": "확실함",
+    "emozi": "🏰🌄",
+    "category": "Attraction",
+    "location": {
+      "lat": 43.696973,
+      "lng": 7.122138
+    },
+    "id": "ChIJG6TaC-bSzRIR8JeX_aUZCAQ",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true"
+  },
+  {
+    "startTime": "519.000",
+    "endTime": "557.000",
+    "place": "Saint-Laurent-du-Var  CAP3000",
+    "googlePlace": "Saint-Laurent-du-Var CAP3000",
+    "describe": "니스 공항 인근 초대형 쇼핑몰. 최근 리노베이션 및 세계 최고 쇼핑센터 수상, 프랑스 패션 브랜드와 식음 매장 다수",
+    "realname": "확실함",
+        "city":"Nice",
+    "emozi": "🛍️🏬",
+    "category": "Shopping",
+    "location": {
+      "lat": 43.65904400000001,
+      "lng": 7.195554999999999
+    },
+    "id": "ChIJK6GKpnHVzRIRhTBAa1mzvzs",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true"
+  },
+  {
+    "startTime": "543.000",
+    "endTime": "547.000",
+    "place": "Saint-Laurent-du-Var  Capsule",
+    "googlePlace": "Paris Galeries Lafayette Capsule",
+    "describe": "CAP3000 내 로컬 디자이너들의 콘셉트 스토어",
+    "realname": "의심됨",
+    "emozi": "🧵🛍️",
+        "city":"Nice",
+    "category": "Shopping",
+    "location": {
+      "lat": 48.8575475,
+      "lng": 2.3513765
+    },
+    "id": "ChIJD7fiBh9u5kcRYJSMaMOCCwQ",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true"
+  },
+  {
+    "startTime": "568.000",
+    "endTime": "594.000",
+    "place": "Nice  Anantara Plaza Nice Hotel",
+    "googlePlace": "Nice Anantara Plaza Nice Hotel",
+    "describe": "Place Masséna 인접 5성급 호텔의 루프톱 바. 구시가지와 Promenade du Paillon, 바다까지 내려다보는 탁 트인 전망",
+    "realname": "확실함",
+    "emozi": "🍸🌅",
+        "city":"Nice",
+    "category": "Food and Beverage",
+    "location": {
+      "lat": 43.6967997,
+      "lng": 7.268164700000001
+    },
+    "id": "ChIJs013HKHazRIRIhWGtt6KTKI",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true"
+  },
+  {
+    "startTime": "576.000",
+    "endTime": "583.000",
+    "place": "Nice  Promenade du Paillon",
+    "googlePlace": "Nice Promenade du Paillon",
+    "describe": "호텔 아래에서 바다까지 이어지는 대형 공원/그린벨트",
+    "realname": "확실함",
+    "emozi": "🌳🌊",
+        "city":"Nice",
+    "category": "Attraction",
+    "location": {
+      "lat": 43.6975383,
+      "lng": 7.2718495
+    },
+    "id": "ChIJo4fztaTazRIR2itWIoTnpZ4",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true"
+  },
+  {
+    "startTime": "604.000",
+    "endTime": "629.000",
+    "place": "Nice  Opéra Nice Côte d'Azur",
+    "googlePlace": "Nice Opéra Nice Côte d'Azur",
+    "describe": "‘Nice Opera’로 불리는 오페라하우스. 붉은 벨벳 좌석·발코니·샹들리에가 특징이며 오페라·발레·클래식 공연을 비교적 합리적 가격에 관람 가능",
+    "realname": "확실함",
+        "city":"Nice",
+    "emozi": "🎭🎼",
+    "category": "Attraction",
+    "location": {
+      "lat": 43.6954724,
+      "lng": 7.2725385
+    },
+    "id": "ChIJOdYiS6LazRIRBQmeCxgnWs4",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true"
+  },
+  {
+    "startTime": "81.000",
+    "endTime": "90.000",
+    "place": "Nice Cimetière du Château",
+    "googlePlace": "Nice Cimetière du Château",
+    "describe": "캐슬힐 정상의 묘지. 메르세데스 창시자 에밀 옐리네크 등 유명 인사가 안장됨.",
+    "realname": "확실함",
+    "emozi": "🪦🌳",
+        "city":"Nice",
+    "category": "Attraction",
+    "location": {
+      "lat": 43.6980274,
+      "lng": 7.280731299999999
+    },
+    "id": "ChIJz8KV8LvazRIR5CSckOVu8iI",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true"
+  }
+]

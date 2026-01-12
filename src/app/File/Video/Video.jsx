@@ -15,7 +15,7 @@ export default function Page() {
   const youtube_link = useSelector((state) => state.url.url_current);
 
   return (
-    <div className=" flex-[1.2] px-8 bg-white flex flex-col" >
+    <div className=" flex-[1.4] px-8 bg-white flex flex-col" >
          <div className="
          justify-between
          pt-3 pb-3 flex gap-10 items-center border-b border-gray-200">
