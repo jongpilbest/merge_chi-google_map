@@ -20,6 +20,7 @@ const colors = {"pink":"bg-[#FA25F0]",
   "purple":"bg-[#974AF7]",
   "gradient_green":"bg-conic/decreasing from-violet-700 via-lime-300 to-violet-700",
   "gradient_category":"bg-gradient-to-r from-teal-400 to-yellow-200",
+  "gradient_data":"bg-gradient-to-r from-violet-200 to-pink-400",
    1:"bg-[#FF0000]",
    2:"bg-[#FEFD48]",
    3:"bg-[#6CFD33]",
@@ -77,13 +78,13 @@ export function Make_Marker({ location,id,color,opacity,emozi }) {
     `}>
     {/* 동그라미 부분 */}
     <div className={`flex 
-    ${color ? 'w-15' : 'w-10'}
+    ${color ? 'w-12' : 'w-10'}
     items-center justify-center  border-green-800 border-2  bg-white text-white  transition-transform group-hover:scale-110`}>
      <div className={`flex items-center justify-center ${color ? `${colors[color]}` : 'bg-white'}`}>
        
 <span
   className={`${
-    color ? 'text-[20px]' : 'text-[13px]'
+    color ? 'text-[16px]' : 'text-[13px]'
   } 
    
    duration-200`}

@@ -56,7 +56,7 @@ const controllerSlice= createSlice({
   name:'controller',
   initialState:{
    Check_check: -1,
-   select_mark_index:-1,
+   select_mark_index:0,
    cancel_check:false,
    selectedMark:[] ,
    showDirection: false,
@@ -189,7 +189,12 @@ const data_store_slice= createSlice({
       });
     }, // 
     InnerComponent_zoom_in(state,action){
-    state.zoom_in_place= action.payload;
+    state.zoom_in_place= action.payload.zoom;
+
+  
+      state.clicked_marker_id = action.payload.id;
+    
+    
       // 여기에 줌인해달라고 하는거 
     },
    filter_data_location(state,action){

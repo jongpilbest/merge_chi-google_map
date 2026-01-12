@@ -35,7 +35,7 @@ function Inner_component_compont() {
     
               <div className='flex w-full  justify-between '>
                 <button
-                onClick={()=>{dispatch(map_click_toggle(data.id))
+                onClick={()=>{
                dispatch(InnerComponent_zoom_in([
       {
         location: {

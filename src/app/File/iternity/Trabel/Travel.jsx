@@ -53,14 +53,10 @@ export const Travel__= function(){
      const [range, setRange] = useState(isDateRange);
       const [total_travel, settotal_Travel] = useState({
         day:0,
-        tabs:[
-    { id: 0, label: "Day 1" },
-    { id: 1, label: "Day 2" },
-    { id: 2, label: "Day 3" },
-    { id: 3, label: "Day 4" },
-  ]
+        tabs:[]
       });
       const[Daydata,setDaydata]=useState([]);
+      
 
 useEffect(() => {
   if (!travel_data?.tabs?.length) return;
@@ -287,7 +283,7 @@ const Travel_Day2 = function(){
       console.log(Route_location, original_route,pick_day)
    
   const hey = [...original_route];
-  hey[pick_day - 1] = Route_location;
+  hey[pick_day] = Route_location;
 
   dispatch(chnage_original_route_data(hey));
       //dispatch(change_selected_mark(pick_day))

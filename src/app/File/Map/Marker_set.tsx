@@ -10,7 +10,7 @@ import {Place} from './MapType'
 export default function Marker_set({ comment }: any) {
   
 const { like_location, clicked_marker_id,color_location ,video_mareker_id,category_name} = useSelector((state: any) => state.data_store);
-console.log(category_name,'?')
+
 
   // useMemo로 Marker 계산 (comment나 current_index 바뀔 때만 새로 계산)
   const markers = useMemo(() => {
@@ -24,19 +24,22 @@ console.log(category_name,'?')
   colorCode = ['purple', 1];
 }
 else if(el.id==video_mareker_id){
-  colorCode=['gradient_green',1]
+  colorCode=['gradient_green', 1]
 }
 
 else if(el.category==category_name){
-  colorCode=['gradient_category',1]
+  colorCode=['gradient_category', 1]
 }
 
+else if(el.Data==1){
+  colorCode=['gradient_data',1]
+}
 
 else if (like_location.hasOwnProperty(el.id)) {
   if (color_location.hasOwnProperty(el.id)) {
-    colorCode = [color_location[el.id], 1];
+    colorCode = [color_location[el.id],  1];
   } else {
-    colorCode = ['pink', 1];
+    colorCode = ['pink',  1];
   }
 }
 

@@ -9,12 +9,15 @@ import PAris_Data from '../../app/../../public/Paris_Data'
 import { set_category_name } from '../Redux/store';
   const tabs = [
     {id:'All', label:'All'},
-    { id: "Transportation", label: "Transportation" },
-    { id: "Accommodation", label: "Accommodation" },
+   
     { id: "Food and Beverage", label: "Food and Beverage" },
      { id: "Shopping", label: "Shopping" },
        { id: "Attraction", label: "Attraction" },
-       {id:'none',label:'none'}
+        { id: "Transportation", label: "Transportation" },
+    { id: "Accommodation", label: "Accommodation" },
+       {id:'cancel',label:'cancel'},
+         {id: "Experimental Data",label:"Experimental Data"},
+
   ];
 
 
@@ -57,6 +60,10 @@ export default function page_list() {
       }
       if(activeTab=='All'){
         const comment_filter=comment&&Object.values(comment).map(arr => arr[0]).flat()   
+         set_filter_comment(comment_filter)
+      }
+      else if( activeTab=="Experimental Data"){
+         const comment_filter=comment&&Object.values(comment).map(arr => arr[0]).flat().filter((el)=>el.Data==1)   
          set_filter_comment(comment_filter)
       }
       else{

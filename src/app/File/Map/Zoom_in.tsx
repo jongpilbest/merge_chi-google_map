@@ -23,7 +23,7 @@ const place= useSelector((state: any) => state.data_store.zoom_in_place);
 if (place&& place[0].location) {
 
   map.panTo(place[0].location);
-  map.setZoom(17);
+  map.setZoom(15);
    }
 
   }, [map, place?.[0]?.location]);

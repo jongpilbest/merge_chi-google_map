@@ -38,15 +38,19 @@ export default function Inner_compont({data,index}) {
   
             <div className='flex w-full  justify-between '>
               <button
-              onClick={()=>{dispatch(map_click_toggle(data.id))
-             dispatch(InnerComponent_zoom_in([
+              onClick={()=>{
+             dispatch(InnerComponent_zoom_in(
+              {  id: data.id,
+                zoom:    [
     {
       location: {
         lat: data.location.lat,
         lng: data.location.lng,
       },
     },
-  ]))
+  ]
+              }
+          ))
 
               }}
               className='hover:bg-green-300 bg-green-200 rounded-md h-6 w-[45%] px-2 flex items-center gap-3   '>

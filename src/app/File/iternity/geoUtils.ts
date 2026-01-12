@@ -39,23 +39,42 @@
     }
   }
 
-  const [origin, destination] = endpoints;
+const [origin, destination] = endpoints;
 
-  // ✅ 중간 포인트를 출발점에서의 거리순으로 정렬
-  const middlePoints = points
-    .filter(
-      (p) => !(p[0] === origin[0] && p[1] === origin[1]) &&
-             !(p[0] === destination[0] && p[1] === destination[1])
-    )
-    .map((p) => ({
-      point: p,
-      dist: haversineDistance(origin, p),
-    }))
-    .sort((a, b) => a.dist - b.dist)
-    .map((d) => d.point);
+// origin / destination 제외한 중간 포인트
+let remaining = points.filter(
+  (p) =>
+    !(p[0] === origin[0] && p[1] === origin[1]) &&
+    !(p[0] === destination[0] && p[1] === destination[1])
+);
 
-     
-  return [origin, ...middlePoints, destination];
+const ordered = [];
+let current = origin;
+
+while (remaining.length > 0) {
+  // 현재 위치에서 가장 가까운 포인트 찾기
+  let nearestIdx = 0;
+  let nearestDist = haversineDistance(current, remaining[0]);
+
+  for (let i = 1; i < remaining.length; i++) {
+    const dist = haversineDistance(current, remaining[i]);
+    if (dist < nearestDist) {
+      nearestDist = dist;
+      nearestIdx = i;
+    }
+  }
+
+  const nearestPoint = remaining[nearestIdx];
+  ordered.push(nearestPoint);
+
+  // 선택한 포인트 제거
+  remaining.splice(nearestIdx, 1);
+
+  // 현재 위치 갱신
+  current = nearestPoint;
+}
+
+return [origin, ...ordered, destination];
 }
 
 export const find_key= function(filter_data_day,like_location){

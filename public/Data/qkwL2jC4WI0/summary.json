@@ -22,6 +22,7 @@
     "googlePlace": "Au Pied de Cochon",
     "describe": "레 알 근처의 클래식 브라세리. 프렌치 어니언 수프와 샤르퀴트리로 유명",
     "realname": "확실함",
+    "Data":1,
     "emozi": "🍲🥖",
     "category": "Food and Beverage",
     "location": {
@@ -55,7 +56,7 @@
     "endTime": "108",
     "place": "유투버가 묵은 호텔 ",
     "googlePlace": "hotel odeon saint-germain",
-    "describe": "유투브버가 묵은 호텔",
+    "describe": "유투버가 묵은 호텔",
     "realname": "확실함",
     "emozi": "🏨",
     "category": "Accommodation",
@@ -65,7 +66,7 @@
     },
     "id": "ChIJlRJRWNlx5kcR3nZXR2iDFgo",
     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/qkwL2jC4WI0/Eiffel%20Tower/128866.jpg?raw=true"
-
+    ,"Data":1
   },
 
   {"city": "Paris",
@@ -434,6 +435,7 @@
     "endTime": "510.88",
     "place": "파리 샤틀레 Tour Saint-Jacques",
     "googlePlace": "Tour Saint-Jacques",
+    "Data":1,
     "describe": "중세 고딕 종탑, 정상 전망이 뛰어남",
     "realname": "확실함",
     "emozi": "🗼🔭",

@@ -72,7 +72,7 @@ function Direction({ polylinesRef, color = "#ff0000", check }: Prop) {
   // ✅ Route 배열 memoization (comment 바뀔 때마다 새로 생성)
   const routesToRender = useMemo(() => {
     console.log(comment,'코멘츠',Find_index_mark)
-    if(comment.length==0) return ;
+    if(comment.length<=0) return ;
     if(Find_index_mark<0) return;
     if(comment[Find_index_mark].length<=1) return;
 
