@@ -32,11 +32,11 @@ function Route({
           ...routeOptions,
         }),
       });
-
+   
       const data = await res.json();
       const [route] = data.routes;
       setRoute(route);
- 
+      console.log(origin, destination)
 
       const routeSteps: any[] = route.legs[0].steps;
    
@@ -48,15 +48,10 @@ function Route({
   
  
       onDurationCalculated?.(index,Total_time);
-     // map.panTo({
-     //   'lat':origin.latLng.latitude,
-     //   'lng':origin.latLng.longitude
-     // });
-     //  map.setZoom(15);
     };
 
     route_go();
-  }, [destination+""+origin]);
+  }, []);
 
   if (!route) return null;
 

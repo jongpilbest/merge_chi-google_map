@@ -14,18 +14,6 @@ tagging: "#CityOfLove #ArtAndFashion",
     image:'https://i.namu.wiki/i/04Ka6t5vfcSOYlnIQTAB6BEJUNFHxlMOHayVm7YRHjEL_MA5HISe7cb1jnstCTmDqtHLQOt-y7-5xMabPUZEkQ.webp'
     },
  {
-    city:"Nice",
-    name: "니스",
- description: "환상적인 지중해 해변과 여유로운 휴양 분위기를 자랑하는 코트다쥐르의 보석입니다.",
-tagging: "#BeachVibes #FrenchRiviera",
-      place_id:'ChIJMS2FahDQzRIRcJqX_aUZCAQ',
-    location: {
-      "lat": 43.710173, 
-      "lng":7.261953,
-    },
-    image:'https://i.namu.wiki/i/PWVCRixpMptZakc9JEJbs_ShJdJe4V-PzPN01ZjCnfRTQ4pSZm4nmC-pgGJmboU-2F4_aCI4_WHtBhr45EZwNw.webp'
-    },
- {
     city:"Marseille",
     name: "마르세유",
  description: "활기찬 항구 도시로, 현대적인 건축물과 지중해의 역동적인 에너지가 공존하는 곳입니다.",
@@ -38,7 +26,7 @@ tagging: "#PortCity #MediterraneanVibe",
     image:'https://i.namu.wiki/i/LGkH5-oqm9VxWWi7Arn7wm8lqsRGXP43IxVfKpU9piZ3mkh7Va4D-ryDA8JH7Keb_O7UnUS27N7GNBEw2SasPQ.webp'
     },
      {
-    city:"Newyork",
+    city:"Newyork (Tutorial)",
     name: "뉴욕",
  description: "세계 금융과 문화의 중심지로, 초고층 빌딩과 다양한 문화가 어우러진 역동적인 대도시입니다.",
 tagging: "#GlobalCity #CulturalHub",

@@ -144,7 +144,7 @@ useEffect(() => {
         setDaydata(final_data)
         dispatch(change_check_Check())
         dispatch(chnage_original_route_data(final_data))
-        dispatch(change_selected_mark(pick_day))
+        dispatch(change_selected_mark(pick_day-1))
       
 
     
@@ -283,10 +283,10 @@ const Travel_Day2 = function(){
    //   console.log(Route_location, original_route,pick_day)
    
   const hey = [...original_route];
-  hey[pick_day] = Route_location;
+  hey[pick_day-1] = Route_location;
 
-  dispatch(chnage_original_route_data(hey));
-      //dispatch(change_selected_mark(pick_day))
+
+      dispatch(chnage_original_route_data(hey));
       dispatch(Time_Duration({ first: filter_comment.length - 1 }));
       dispatch(change_check_Check())
  

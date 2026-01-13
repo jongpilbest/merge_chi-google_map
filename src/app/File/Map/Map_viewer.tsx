@@ -107,7 +107,7 @@ export default function Map_viewer({id ,handleMarkerClick }:MapViewerProps  ) {
           </div>
           <p className="text-sm font-bold
 
-          text-gray-700">From the Video</p>
+          text-gray-700">Place Summary</p>
         </div>
 
         <WatchVideo index={el[0].index} startTime={el[0].startTime} />
