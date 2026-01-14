@@ -25,6 +25,8 @@ export const Task = ({ id, El, idx }) => {
     (state) => state.contorller.Duration_Time
   );
 
+  
+
   const style = {
     transition,
     transform: CSS.Transform.toString(transform),
@@ -40,9 +42,9 @@ export const Task = ({ id, El, idx }) => {
       <div
         {...attributes}
         {...listeners}
-        className=" text-gray-400 text-xs w-full bg-gray-100 "
+        className=" text-gray-400 flex  justify-center w-full bg-gray-100 "
       >
-        ☰
+        <p className="text-md">☰</p>
       </div>
 
       {/* ✅ Inner_compont 클릭 정상 */}

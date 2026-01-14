@@ -16,7 +16,7 @@ export default function Inner_compont({data,index}) {
 
   return (
   
-          <div className='h-23  shadow-md gap-2 bg-gray-100 my-4 rounded-md flex items-center p-2 flex-row '>
+          <div className=' w-full h-23  shadow-md gap-2 bg-gray-100 my-4 rounded-md flex items-center p-2 flex-row '>
             <div className='w-[40%] h-full '>
                 <Image
                 alt={data.googlePlace}

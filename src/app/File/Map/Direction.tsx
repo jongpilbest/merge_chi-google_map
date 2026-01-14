@@ -30,7 +30,7 @@ function Direction({ polylinesRef, color = "#ff0000", check }: Prop) {
   const handleDurationCalculated= function(index,time){
    // console.log(time,'타임?//')
    dispatch(Time_Duration({ index:index,time:time,first:-1}))
-  
+   
 
 
   }

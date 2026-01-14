@@ -250,7 +250,7 @@ useEffect(() => {
         )
     
 
-}, [color_location,pick_day]);
+}, [color_location]);
 
 
     

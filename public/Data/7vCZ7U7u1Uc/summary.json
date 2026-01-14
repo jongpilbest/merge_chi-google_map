@@ -27,8 +27,8 @@
     "emozi": "🛳️🚶‍♂️",
     "category": "Transportation",
     "location": {
-      "lat": 43.295086,
-      "lng":5.360423
+      "lat": 43.296581789767934, 
+      "lng":5.362041886899144
     },
     "id": "ChIJfw6gR8zByRIRvZ_A1HZYUbI",
     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Mar/7vCZ7U7u1Uc/Marseille%20La%20Joliette%20Cruise%20Terminal/60566.jpg?raw=true"
@@ -40,7 +40,7 @@
     "googlePlace": "Marseille Les Terrasses du Port",
     "describe": "라 졸리에트에 위치한 대형 쇼핑몰, 포트 전망의 루프탑과 다양한 식음·쇼핑",
     "realname": "확실함",
-    "Data":"Experimental Data",
+
         "url":"7vCZ7U7u1Uc",
     "emozi": "🛍️🌅",
     "category": "Shopping",
@@ -96,7 +96,6 @@
     "realname": "확실함",
     "emozi": "⛪️🎨",
     "category": "Attraction",
-    "Data":"Experimental Data",
     "location": {
       "lat": 43.2992976,
       "lng": 5.364701699999999
@@ -149,8 +148,8 @@
     "emozi": "⚓️🌊",
     "category": "Attraction",
     "location": {
-      "lat": 43.29446462872676,
-      "lng": 5.364514692792289
+      "lat": 43.29526103354531,
+      "lng":  5.366102556743276
     },
     "id": "ChIJKTeEocbAyRIRscOdGM86P30",
     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Mar/7vCZ7U7u1Uc/Marseille%20Vieux-Port%20de%20Marseille/361100.jpg?raw=true"
@@ -283,7 +282,7 @@
     "googlePlace": "Marseille La Canebière",
     "describe": "구항에서 시작해 1km 이어지는 메인 쇼핑 대로, 17세기 조성·보행/차량·트램 혼합",
     "realname": "확실함",
-    "Data":"Experimental Data",
+ 
     "emozi": "🛍️🚶",
     "category": "Shopping",
     "location": {

@@ -32,26 +32,31 @@ function Route({
           ...routeOptions,
         }),
       });
-   
+
       const data = await res.json();
       const [route] = data.routes;
       setRoute(route);
-      console.log(origin, destination)
+ 
 
       const routeSteps: any[] = route.legs[0].steps;
    
       const Total_time = { WALK: 0, TRANSIT: 0 };
-      routeSteps.length>0&& routeSteps.forEach((step) => {
+      routeSteps.forEach((step) => {
         const sec = parseInt(step.staticDuration.replace("s", ""), 10);
         if (!isNaN(sec)) Total_time[step.travelMode] += sec;
       });
   
  
       onDurationCalculated?.(index,Total_time);
+     // map.panTo({
+     //   'lat':origin.latLng.latitude,
+     //   'lng':origin.latLng.longitude
+     // });
+     //  map.setZoom(15);
     };
 
     route_go();
-  }, []);
+  }, [destination+""+origin]);
 
   if (!route) return null;
 

@@ -16,17 +16,20 @@ export const Day_canlendar= function({setRange_fun,range}){
                    onClick={() => {
                        setShowStartPicker(!showStartPicker);
                      }}
-                className=" flex py-5 gap-4 relative    justify-between ">
+                className=" flex py-5 gap-4 relative    justify-between w-full ">
                    <div
                      className="flex items-center 
-                  
-                     
+                          
+                     w-[50%]
                      bg-gray-100 border border-gray-200 rounded-md px-3 gap-2 py-2 cursor-pointer"
                    >
                      <FaRegCalendarAlt className="text-gray-500" />
                      <input
                        readOnly
-                       className="w-full text-sm text-gray-700 placeholder-gray-400 outline-none cursor-pointer"
+                       className="w-full 
+                       
+                       
+                       text-sm text-gray-700 placeholder-gray-400 outline-none cursor-pointer"
                        placeholder="Start date"
                        value={formatDate(range.from)}
                      />
@@ -64,9 +67,11 @@ export const Day_canlendar= function({setRange_fun,range}){
                
            
                  {/* ✅ End date */}
-                 <div className=" flex flex-col">
+               
                    <div
-                     className="flex items-center gap-2  bg-gray-100  border border-gray-200 rounded-md px-3 py-2 cursor-pointer"
+                     className="flex items-center gap-2 
+                     w-[50%]
+                     bg-gray-100  border border-gray-200 rounded-md px-3 py-2 cursor-pointer"
                    >
                      <FaRegCalendarAlt className="text-gray-500" />
                      <input
@@ -75,7 +80,7 @@ export const Day_canlendar= function({setRange_fun,range}){
                        placeholder="End date"
                        value={formatDate(range.to)}
                      />
-                   </div>
+                
            
                   
                  </div>
