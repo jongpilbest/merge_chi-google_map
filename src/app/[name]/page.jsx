@@ -43,7 +43,7 @@ const queryClient = new QueryClient();
     <div className="flex-1 bg-gray-100 flex flex-row overflow-hidden">
       
       {/* 왼쪽 영역 */}
-      <div className="flex-[0.8] flex flex-col bg-white overflow-hidden">
+      <div className="flex-[1] flex flex-col bg-white overflow-hidden">
         <Videopage />
        {/* 내부 스크롤 영역  <Page_list /> */}
        {Choice=='Explore' && <Page_list></Page_list>}

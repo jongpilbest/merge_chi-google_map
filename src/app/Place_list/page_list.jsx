@@ -15,6 +15,7 @@ import { set_category_name } from '../Redux/store';
        { id: "Attraction", label: "Attraction" },
         { id: "Transportation", label: "Transportation" },
     { id: "Accommodation", label: "Accommodation" },
+    {id:"Experiment",label:"Experiment"},
        {id:'cancel',label:'cancel'},
    
 
@@ -60,6 +61,10 @@ export default function page_list() {
       }
       if(activeTab=='All'){
         const comment_filter=comment&&Object.values(comment).map(arr => arr[0]).flat()   
+         set_filter_comment(comment_filter)
+      }
+      else if(activeTab=="Experiment"){
+           const comment_filter=comment&&Object.values(comment).map(arr => arr[0]).flat().filter((el)=>el.Data==activeTab)   
          set_filter_comment(comment_filter)
       }
      

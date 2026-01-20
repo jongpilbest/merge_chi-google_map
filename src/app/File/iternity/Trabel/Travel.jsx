@@ -304,7 +304,7 @@ const Travel_Day2 = function(){
          className="
          hover:bg-green-500
          bg-[#47D6A2] rounded-md text-white py-2 text-sm">
-         Auto generation
+          Distance-driven itinerary planning
          </button>
            </div>
            <div className="h-full flex-1  overflow-y-auto">
@@ -324,7 +324,7 @@ const Travel_Day2 = function(){
           h-8
           mt-5
          bg-[#47D6A2] rounded-md text-white  text-sm">
-         Route generation
+          Itinerary restructuring
          </button>
           }
             </DndContext>

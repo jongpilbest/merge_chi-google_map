@@ -1,21 +1,4 @@
-[  {
-    "startTime": "30.000",
-    "endTime": "111.000",
-    "place": "Nice Castle Hill (Colline du Château)",
-    "googlePlace": "Nice Colline du Château",
-    "describe": "니스의 대표 전망 공원으로 베이·항구·알프스까지 조망 가능. 폭포, 성채 유적, 산책로, 카페, 무료 엘리베이터가 있음.",
-    "realname": "확실함",
-    "emozi": "🏞️🌊",
-        "city":"Nice",
-        "url":"thzAFPh6N1E",
-    "category": "Attraction",
-    "location": {
-      "lat": 43.6959352,
-      "lng": 7.279660100000001
-    },
-    "id": "ChIJ87pSBQHQzRIR7gulsDlUpa8",
-     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true"
-  },
+[ 
    {
     "startTime": "38.000",
     "endTime": "43.000",
@@ -30,27 +13,12 @@
       "lat": 43.7101728,
       "lng": 7.261953200000001
     },
+    "url":"thzAFPh6N1E",
     "id": "ChIJMS2FahDQzRIRcJqX_aUZCAQ",
-     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true"
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Nice/thz/Nice%20Baie%20des%20Anges/41720.jpg?raw=true"
   },
-  {        "url":"thzAFPh6N1E",
-    "startTime": "152.000",
-    "endTime": "164.000",
-    "place": "Nice Promenade des Anglais",
-    "googlePlace": "Nice Promenade des Anglais",
-    "describe": "해변을 따라 이어지는 산책로. 걷기·러닝·사이클링과 파란 의자에서 바다 감상 가능.",
-    "realname": "확실함",
-    "emozi": "🏖️🚶‍♀️",
-    "category": "Attraction",
-    "location": {
-      "lat": 43.6949772,
-      "lng": 7.2678307
-    },
-    "id": "ChIJ0VoczFnQzRIR737WTal1fso",
-    "city":"Nice",
-     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true"
-  },
-  {
+
+  {  "url":"thzAFPh6N1E",
     "startTime": "172.000",
     "endTime": "177.000",
     "place": "Nice Hôtel Albert 1er",
@@ -65,9 +33,9 @@
     },
     "id": "ChIJMS2FahDQzRIRcJqX_aUZCAQ",
         "city":"Nice",
-     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true"
+         "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Nice/thz/Nice%20H%C3%B4tel%20Albert%201er/174320.jpg?raw=true"
   },
-  {
+  {  "url":"thzAFPh6N1E",
     "startTime": "192.000",
     "endTime": "202.000",
     "place": "Nice Vélobleu (Bike Share)",
@@ -82,26 +50,9 @@
     },
     "id": "ChIJMS2FahDQzRIRcJqX_aUZCAQ",
         "city":"Nice",
-     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true"
+        "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Nice/thz/Nice%20V%C3%A9lobleu/194360.jpg?raw=true"
   },
-  {
-    "startTime": "232.000",
-    "endTime": "236.000",
-    "place": "Nice Jardin Albert 1er",
-    "googlePlace": "Nice Promenade des Anglais",
-    "describe": "프로므나드 데 장글레 옆 정원. 관광 전기열차 출발 지점 인근.",
-    "realname": "의심됨",
-    "emozi": "🌳🚂",
-    "category": "Attraction",
-    "location": {
-      "lat": 43.6949772,
-      "lng": 7.2678307
-    },
-    "id": "ChIJ0VoczFnQzRIR737WTal1fso",
-        "city":"Nice",
-     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true"
-  },
-  {
+  {  "url":"thzAFPh6N1E",
     "startTime": "285.000",
     "endTime": "291.000",
     "place": "Nice René Socca",
@@ -116,26 +67,9 @@
       "lng": 7.2789192
     },
     "id": "ChIJrVd0ALvazRIRgZ9_9PW3Zwo",
-     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true"
+         "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Nice/thz/Nice%20Fenocchio%20Glacier/290360.jpg?raw=true"
   },
-  {
-    "startTime": "291.000",
-    "endTime": "299.000",
-    "place": "Nice Fenocchio Glacier",
-    "googlePlace": "Nice René Socca",
-    "describe": "다양하고 기발한 맛으로 유명한 아이스크림 가게.",
-    "realname": "의심됨",
-    "emozi": "🍨🍦",
-        "city":"Nice",
-    "category": "Food and Beverage",
-    "location": {
-      "lat": 43.7000215,
-      "lng": 7.2789192
-    },
-    "id": "ChIJrVd0ALvazRIRgZ9_9PW3Zwo",
-     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true"
-  },
-  {
+  {  "url":"thzAFPh6N1E",
     "startTime": "299.000",
     "endTime": "308.000",
     "place": "Nice Cours Saleya (Flower Market)",
@@ -150,9 +84,9 @@
       "lng": 7.2749227
     },
     "id": "ChIJO2a3IKPazRIRvoDhP3QCfcE",
-     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true"
+        "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Nice/thz/Nice%20Cours%20Saleya/303840.jpg?raw=true"
   },
-  {
+  {  "url":"thzAFPh6N1E",
     "startTime": "331.000",
     "endTime": "357.000",
     "place": "Nice Le Galet",
@@ -167,9 +101,9 @@
       "lng": 7.2659973
     },
     "id": "ChIJr0ToEaDazRIRb1K13y58mUs",
-     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true"
+         "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Nice/thz/Nice%20Le%20Galet/333440.jpg?raw=true"
   },
-  {
+  {  "url":"thzAFPh6N1E",
     "startTime": "387.000",
     "endTime": "434.000",
     "place": "Nice Musée National Marc Chagall",
@@ -184,26 +118,9 @@
       "lng": 7.270165099999999
     },
     "id": "ChIJI9rouKvazRIRqmGBA1K3IzQ",
-     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true"
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Nice/thz/Nice%20Mus%C3%A9e%20National%20Marc%20Chagall/394400.jpg?raw=true"
   },
-  {
-    "startTime": "408.000",
-    "endTime": "469.000",
-    "place": "Nice  Musée National Marc Chagall",
-    "googlePlace": "Nice Musée National Marc Chagall",
-    "describe": "샤갈의 아이디어로 설계된 프랑스 국립 미술관. ‘Song of the Songs’ 전시실, 스테인드글라스, 대형 모자이크가 있으며 가든 카페와 샵, 2023 특별전 'Chagall and Me' 진행",
-    "realname": "확실함",
-    "emozi": "🎨🖼️",
-        "city":"Nice",
-    "category": "Attraction",
-    "location": {
-      "lat": 43.7094754,
-      "lng": 7.270165099999999
-    },
-    "id": "ChIJI9rouKvazRIRqmGBA1K3IzQ",
-     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true"
-  },
-  {
+  {  "url":"thzAFPh6N1E",
     "startTime": "486.000",
     "endTime": "500.000",
     "place": "Èze  Èze Village",
@@ -218,9 +135,9 @@
       "lng": 7.361791999999999
     },
     "id": "ChIJQUWvSWHDzRIRQJyX_aUZCAQ",
-     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true"
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Nice/thz/%C3%88ze%20%C3%88ze%20Village/488120.jpg?raw=true"
   },
-  {
+  {  "url":"thzAFPh6N1E",
     "startTime": "489.000",
     "endTime": "500.000",
         "city":"Nice",
@@ -235,9 +152,9 @@
       "lng": 7.122138
     },
     "id": "ChIJG6TaC-bSzRIR8JeX_aUZCAQ",
-     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true"
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Nice/thz/Saint-Paul-de-Vence%20Saint-Paul-de-Vence/490600.jpg?raw=true"
   },
-  {
+  {  "url":"thzAFPh6N1E",
     "startTime": "519.000",
     "endTime": "557.000",
     "place": "Saint-Laurent-du-Var  CAP3000",
@@ -252,9 +169,9 @@
       "lng": 7.195554999999999
     },
     "id": "ChIJK6GKpnHVzRIRhTBAa1mzvzs",
-     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true"
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Nice/thz/Saint-Laurent-du-Var%20CAP3000/520280.jpg?raw=true"
   },
-  {
+  {  "url":"thzAFPh6N1E",
     "startTime": "543.000",
     "endTime": "547.000",
     "place": "Saint-Laurent-du-Var  Capsule",
@@ -269,9 +186,9 @@
       "lng": 2.3513765
     },
     "id": "ChIJD7fiBh9u5kcRYJSMaMOCCwQ",
-     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true"
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Nice/thz/Saint-Laurent-du-Var%20CAPSULE/549560.jpg?raw=true"
   },
-  {
+  {  "url":"thzAFPh6N1E",
     "startTime": "568.000",
     "endTime": "594.000",
     "place": "Nice  Anantara Plaza Nice Hotel",
@@ -286,9 +203,9 @@
       "lng": 7.268164700000001
     },
     "id": "ChIJs013HKHazRIRIhWGtt6KTKI",
-     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true"
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Nice/thz/Nice%20Anantara%20Plaza%20Nice%20Hotel/575040.jpg?raw=true"
   },
-  {
+  {  "url":"thzAFPh6N1E",
     "startTime": "576.000",
     "endTime": "583.000",
     "place": "Nice  Promenade du Paillon",
@@ -303,9 +220,9 @@
       "lng": 7.2718495
     },
     "id": "ChIJo4fztaTazRIR2itWIoTnpZ4",
-     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true"
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Nice/thz/Nice%20Promenade%20du%20Paillon/585280.jpg?raw=true"
   },
-  {
+  {  "url":"thzAFPh6N1E",
     "startTime": "604.000",
     "endTime": "629.000",
     "place": "Nice  Opéra Nice Côte d'Azur",
@@ -320,9 +237,9 @@
       "lng": 7.2725385
     },
     "id": "ChIJOdYiS6LazRIRBQmeCxgnWs4",
-     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true"
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Nice/thz/Nice%20Op%C3%A9ra%20Nice%20C%C3%B4te%20d'Azur/610520.jpg?raw=true"
   },
-  {
+  {  "url":"thzAFPh6N1E",
     "startTime": "81.000",
     "endTime": "90.000",
     "place": "Nice Cimetière du Château",
@@ -337,6 +254,6 @@
       "lng": 7.280731299999999
     },
     "id": "ChIJz8KV8LvazRIR5CSckOVu8iI",
-     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true"
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Nice/thz/Nice%20Cimeti%C3%A8re%20du%20Ch%C3%A2teau/81480.jpg?raw=true"
   }
 ]

@@ -13,20 +13,9 @@ tagging: "#CityOfLove #ArtAndFashion",
     },
     image:'https://i.namu.wiki/i/04Ka6t5vfcSOYlnIQTAB6BEJUNFHxlMOHayVm7YRHjEL_MA5HISe7cb1jnstCTmDqtHLQOt-y7-5xMabPUZEkQ.webp'
     },
- {
-    city:"Marseille",
-    name: "마르세유",
- description: "활기찬 항구 도시로, 현대적인 건축물과 지중해의 역동적인 에너지가 공존하는 곳입니다.",
-tagging: "#PortCity #MediterraneanVibe",
-      place_id:'ChIJM1PaREO_yRIRIAKX_aUZCAQ',
-    location: {
-      "lat":  43.302574,
-      "lng": 5.369074
-    },
-    image:'https://i.namu.wiki/i/LGkH5-oqm9VxWWi7Arn7wm8lqsRGXP43IxVfKpU9piZ3mkh7Va4D-ryDA8JH7Keb_O7UnUS27N7GNBEw2SasPQ.webp'
-    },
+    
      {
-    city:"Newyork (Tutorial)",
+    city:"Newyork",
     name: "뉴욕",
  description: "세계 금융과 문화의 중심지로, 초고층 빌딩과 다양한 문화가 어우러진 역동적인 대도시입니다.",
 tagging: "#GlobalCity #CulturalHub",
@@ -37,6 +26,21 @@ tagging: "#GlobalCity #CulturalHub",
     },
     image:'https://i.namu.wiki/i/GhRScrmtLIlWQgtu0Yih4Udh1dPrMQ9a__J3mr8Q-q4bDBwQ2pzif0NXcDJvzSph-R5I-nWcjN9R3RjVknqmKg.webp'
     },
+     {
+    city:"Nice [ tutorial ]",
+    name: "니스",
+ description: "지중해 연안에 위치한 항구 도시로, 해변과 구시가지, 항만 시설이 함께 형성된 도시입니다",
+tagging: "#Mediterranean #Port ",
+      place_id:'ChIJMS2FahDQzRIRcJqX_aUZCAQ',
+    location: {
+      "lat":  43.645406,
+      "lng": 7.182148
+    },
+    image:'https://i.namu.wiki/i/2rlwCtrJSkfnqI2VZiiKioY95YyIJ08n9WS68zm5N8hxjwMvU5Qu1dOvICSQpuCu0YHrnloQUy--UF6GHDEVWF0cB-xYj8TiHEyatIHq9RZWYaGZaEEgwNiI_0TPnfmWrdRQ6iKKISch5seKisGD3Q.webp'
+    },
+
+ 
+
 
 //  {
 //    city:"Lyon",
@@ -50,6 +54,20 @@ tagging: "#GlobalCity #CulturalHub",
 //    },
 //    image:'https://i.namu.wiki/i/QRwsTsS8UdqI46usLMrRZVR2W-pgYHPY5uUeDTKjfVMeOozaKjFtotdqJlkHfuzcLu7ryJPGPwvTUuYQKRZFPw.webp'
 //    },
+
+//{
+//    city:"Marseille",
+//    name: "마르세유",
+// description: "활기찬 항구 도시로, 현대적인 건축물과 지중해의 역동적인 에너지가 공존하는 곳입니다.",
+//tagging: "#PortCity #MediterraneanVibe",
+//      place_id:'ChIJM1PaREO_yRIRIAKX_aUZCAQ',
+//    location: {
+//      "lat":  43.302574,
+//      "lng": 5.369074
+//    },
+//    image:'https://i.namu.wiki/i/LGkH5-oqm9VxWWi7Arn7wm8lqsRGXP43IxVfKpU9piZ3mkh7Va4D-ryDA8JH7Keb_O7UnUS27N7GNBEw2SasPQ.webp'
+//    },
+
 ]
 
 export default PAris_Data
