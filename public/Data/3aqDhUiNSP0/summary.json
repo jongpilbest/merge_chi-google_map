@@ -1,0 +1,83 @@
+[   {
+    "startTime": "206.70",
+    "endTime": "218.82",
+    "place": "뉴욕 미드타운 이스트 Ford Foundation Atrium Garden",
+    "googlePlace": "New York Ford Foundation Atrium Garden",
+    "describe": "거대한 실내 아트리움 정원. 지붕에서 모은 빗물로 유지되는 열대 환경의 힐링 스팟.",
+    "realname": "의심됨",
+    "emozi": "C🌧️",
+    "category": "Attraction",
+    "location": {
+      "lat":40.750198697602414,
+      "lng":  -73.97016874958666
+    },
+    "id": "ChIJ68T3fABZwokRijJzBaUD-Fg",
+     "url":"TT2R5B9F3EQ",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/NewYork/TT/New%20York%20Ford%20Foundation%20Center%20for%20Social%20Justice/211252.jpg?raw=true"
+  },
+  {
+    "startTime": "226.46",
+    "endTime": "248.42",
+    "place": "뉴욕 미드타운 이스트 Sarge's Delicatessen & Diner",
+    "googlePlace": "New York Sarge's Delicatessen & Diner",
+    "describe": "현지인 애정의 델리. 머스터드만 더한 파스트라미 온 라이가 대표 메뉴로 양이 푸짐해 2명이 나눠먹기 좋음.",
+    "realname": "확실함",
+    "emozi": "🍖B",
+    "category": "Food and Beverage",
+    "location": {
+      "lat": 40.756025883150365, 
+      "lng":-73.97167017749405
+    },
+    "id": "ChIJR_f8ggZZwokRdfXSsyN0IGU",
+     "url":"TT2R5B9F3EQ",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/NewYork/TT/New%20York%20Sarge's%20Delicatessen%20&%20Diner/227060.jpg?raw=true"
+  },{
+    "startTime": "314.34",
+    "endTime": "333.42",
+    "place": "뉴욕 타임스스퀘어 John's of Times Square",
+    "googlePlace": "New York John's of Times Square",
+    "describe": "옛 교회 건물 내부의 피자집. 브로드웨이 관람 전후 식사로 제격, 탄탄한 화덕 피자 맛.",
+    "realname": "확실함",
+    "emozi": "🍕D",
+    "category": "Food and Beverage",
+    "location": {
+      "lat": 40.7582117,
+      "lng": -73.98839579999999
+    },
+    "id": "ChIJBSESh1RYwokRyHcVnrG7JWo",
+     "url":"TT2R5B9F3EQ",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/NewYork/TT/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202026-01-20%20114258.png?raw=true"
+  },    {
+    "startTime": "333.42",
+    "endTime": "356.82",
+    "place": "뉴욕 타임스스퀘어 Father Duffy Square",
+    "googlePlace": "New York Time square",
+    "describe": "빅 레드 스텝스 인근의 대표 포토 스팟. 관광지 혼잡·호객 사기 주의.",
+    "realname": "확실함",
+    "emozi": "📸E",
+    "category": "Attraction",
+    "location": {
+      "lat":40.762572575589964,
+      "lng":  -73.97597332723757
+    },
+    "id": "ChIJk-utwVVYwokRx--LhLcP2cA",
+     "url":"TT2R5B9F3EQ",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/NewYork/TT/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202026-01-20%20122545.png?raw=true"
+  },  {
+    "startTime": "333.42",
+    "endTime": "356.82",
+    "place": "뉴욕 타임스스퀘어 Ace hotel newyork",
+    "googlePlace": "New York Ace hotel newyork",
+    "describe": "호텔",
+    "realname": "확실함",
+    "emozi": "🏨A",
+    "category": "Attraction",
+    "location": {
+      "lat":40.73261324077332,
+      "lng":  -73.99022843939265
+    },
+    "id": "ChIJT2h1HKZZwokR_Nwoxn8RfU0",
+     "url":"TT2R5B9F3EQ",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/NewYork/TT/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202026-01-20%20122545.png?raw=true"
+  }
+]

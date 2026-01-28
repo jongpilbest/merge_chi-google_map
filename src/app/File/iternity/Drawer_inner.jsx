@@ -61,7 +61,7 @@ export default function Drawer_inner({total_travel}) {
              {/* 장소 컴포넌트 */}
              
              <Drawer change_category={(e) => Drawer_change(e)} tabs={total_travel.tabs}>
-             <Inner_compont key={El.describe} data={El} />
+             <Inner_compont key={El.id} data={El} />
    
              {/* 다음 장소가 존재할 때만 시간 표시 */}
              {Total_duration?.[idx] && (

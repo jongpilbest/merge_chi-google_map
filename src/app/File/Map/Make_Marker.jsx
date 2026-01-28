@@ -78,16 +78,17 @@ export function Make_Marker({ location,id,color,opacity,emozi }) {
     `}>
     {/* 동그라미 부분 */}
     <div className={`flex 
-    ${color ? 'w-auto' : 'w-10'}
-    px-2
+    ${color ? 'w-19' : 'w-11'}
+
     items-center justify-center  border-green-800 border-2  bg-white text-white  transition-transform group-hover:scale-110`}>
-     <div className={`flex items-center justify-center ${color ? `${colors[color]}` : 'bg-white'}`}>
+     <div className={`flex   
+      ${color ? 'w-19' : 'w-11'} items-center justify-center ${color ? `${colors[color]}` : 'bg-white'}`}>
        
 <span
   className={`
     truncate
     ${
-    color ? 'text-[19px]' : 'text-[13px]'
+    color ? 'text-[19px]' : 'text-[14px]'
   } 
   text-black
   font-bold

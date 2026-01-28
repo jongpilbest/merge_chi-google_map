@@ -39,16 +39,17 @@ const VideoPlayer = forwardRef(function VideoPlayer({ url }, ref) {
       return () => clearTimeout(timer);
     }
   }, [ready, youtube_link]);
+  const time_data=comment&&Object.values(comment).flat(2).filter((el)=>el.url==youtube_cuurent_url);
 
   const getActiveMarkerId= function(playedSeconds,comment){
- 
     if(comment){
         // comment.
-      
-        const comment_filter=comment&&Object.values(comment).map(arr => arr[0]).flat().filter((el)=>el.url==youtube_cuurent_url).filter((el)=>el.startTime <= playedSeconds &&
-         playedSeconds <= el.endTime);
-       
-         // console.log(comment_filter,'?', playedSeconds)
+        console.log(playedSeconds,time_data)
+      const comment_filter = time_data.filter(el =>
+  Number(el.startTime) <= playedSeconds &&
+  playedSeconds <= Number(el.endTime)
+);
+      console.log(comment_filter,'?')
 
 
         if(comment_filter[0]){

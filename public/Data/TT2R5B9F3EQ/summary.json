@@ -1,0 +1,343 @@
+[
+    {
+    "startTime": "76.26",
+    "endTime": "96.34",
+    "place": "뉴욕 미드타운 Tick Tock Diner",
+    "googlePlace": "New York Tick Tock Diner",
+    "describe": "펜 스테이션 맞은편 24시간 영업하는 클래식 다이너. 팬케이크·프렌치토스트가 매우 크고, 아침 메뉴는 $9.95부터.",
+    "realname": "확실함",
+    "emozi": "🥞☕",
+    "category": "Food and Beverage",
+    "location": {
+      "lat": 40.75242,
+      "lng": -73.993544
+    },
+    "id": "ChIJKUvC6K1ZwokR-6gilCP_YRg",
+    "url":"TT2R5B9F3EQ",
+    "image":"https://github.com/jongpilbest/image_iui_file/blob/main/NewYork/TT/New%20York%20Tick%20Tock%20Diner/73031.jpg?raw=true"
+  },
+  
+  {
+    "startTime": "116.54",
+    "endTime": "138.46",
+    "place": "뉴욕 미드타운 Bryant Park",
+    "googlePlace": "New York Bryant Park",
+    "describe": "가을~초봄엔 ‘Winter Village’로 변신하는 미드타운 공원. 깔끔한 공중화장실로도 유명.",
+    "realname": "확실함",
+    "emozi": "🌳❄️",
+    "category": "Attraction",
+    "location": {
+      "lat":40.75395525762218, 
+      "lng": -73.9837039185311
+    },
+    "id": "ChIJvbGg56pZwokRp_E3JbivnLQ",
+    "url":"TT2R5B9F3EQ",
+    "image":"https://github.com/jongpilbest/image_iui_file/blob/main/NewYork/TT/New%20York%20Bryant%20Park/117826.jpg?raw=true"
+  },
+  
+  {
+    "startTime": "138.46",
+    "endTime": "160.02",
+    "place": "뉴욕 미드타운 The New York Public Library - Stephen A. Schwarzman Building",
+    "googlePlace": "New York The New York Public Library - Stephen A. Schwarzman Building",
+    "describe": "브라이언트파크 옆 NYPL 메인관. 웅장한 열람실과 복도, 1층 Polonsky 전시(오리지널 곰돌이 푸·독립선언문 등) 무료 관람.",
+    "realname": "확실함",
+    "emozi": "📚🏛️",
+    "category": "Attraction",
+    "location": {
+      "lat": 40.75318230000001,
+      "lng": -73.9822534
+    },
+    "id": "ChIJqaiomQBZwokRTHOaUG7fUTs",
+     "url":"TT2R5B9F3EQ",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/NewYork/TT/New%20York%20The%20New%20York%20Public%20Library%20-%20Stephen%20A.%20Schwarzman%20Building/142517.jpg?raw=true"
+  },
+  {
+    "startTime": "171.18",
+    "endTime": "194.76",
+    "place": "뉴욕 미드타운 Top of the Rock",
+    "googlePlace": "New York Top of the Rock",
+    "describe": "록펠러센터 전망대(70층). 도심 한복판 파노라마 뷰, 약 $40부터. 신규 체험 ‘Beam’과 ‘Skylift’ 제공.",
+    "realname": "확실함",
+    "emozi": "🏙️📸",
+    "category": "Attraction",
+    "location": {
+      "lat": 40.7593495,
+      "lng": -73.9794087
+    },
+    "id": "ChIJe7vKMf9YwokRIMYfDz7iF9o",
+     "url":"TT2R5B9F3EQ",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/NewYork/TT/New%20York%20Top%20of%20the%20Rock/173339.jpg?raw=true"
+  },
+  {
+    "startTime": "194.76",
+    "endTime": "206.70",
+    "place": "뉴욕 미드타운 이스트 Grand Central Terminal",
+    "googlePlace": "New York Grand Central Terminal",
+    "describe": "뉴욕의 상징적 환승역. 메인홀의 천상 벽화(별자리) 천장이 포토 스팟.",
+    "realname": "확실함",
+    "emozi": "🚉🌌",
+    "category": "Transportation",
+    "location": {
+      "lat": 40.7533582,
+      "lng": -73.9768041
+    },
+    "id": "ChIJhRwB-yFawokRi0AhGH87UTc",
+     "url":"TT2R5B9F3EQ",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/NewYork/TT/New%20York%20Grand%20Central%20Terminal/200450.jpg?raw=true"
+  },
+  {
+    "startTime": "206.70",
+    "endTime": "218.82",
+    "place": "뉴욕 미드타운 이스트 Ford Foundation Atrium Garden",
+    "googlePlace": "New York Ford Foundation Atrium Garden",
+    "describe": "거대한 실내 아트리움 정원. 지붕에서 모은 빗물로 유지되는 열대 환경의 힐링 스팟.",
+    "realname": "의심됨",
+    "emozi": "🌿🌧️",
+    "category": "Attraction",
+    "location": {
+      "lat":40.750198697602414,
+      "lng":  -73.97016874958666
+    },
+    "id": "ChIJ68T3fABZwokRijJzBaUD-Fg",
+     "url":"TT2R5B9F3EQ",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/NewYork/TT/New%20York%20Ford%20Foundation%20Center%20for%20Social%20Justice/211252.jpg?raw=true"
+  },
+  {
+    "startTime": "226.46",
+    "endTime": "248.42",
+    "place": "뉴욕 미드타운 이스트 Sarge's Delicatessen & Diner",
+    "googlePlace": "New York Sarge's Delicatessen & Diner",
+    "describe": "현지인 애정의 델리. 머스터드만 더한 파스트라미 온 라이가 대표 메뉴로 양이 푸짐해 2명이 나눠먹기 좋음.",
+    "realname": "확실함",
+    "emozi": "🥪🍖",
+    "category": "Food and Beverage",
+    "location": {
+      "lat": 40.7473527,
+      "lng": -73.97724459999999
+    },
+    "id": "ChIJR_f8ggZZwokRdfXSsyN0IGU",
+     "url":"TT2R5B9F3EQ",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/NewYork/TT/New%20York%20Sarge's%20Delicatessen%20&%20Diner/227060.jpg?raw=true"
+  },
+  {
+    "startTime": "248.42",
+    "endTime": "260.30",
+    "place": "뉴욕 센트럴파크 Central Park",
+    "googlePlace": "New York Central Park",
+    "describe": "59 St/Columbus Circle 부근에서 진입 추천. 50블록에 걸친 광대한 도심 공원.",
+    "realname": "확실함",
+    "emozi": "🌳🗺️",
+    "category": "Attraction",
+    "location": {
+      "lat": 40.7825547,
+      "lng": -73.9655834
+    },
+    "id": "ChIJ4zGFAZpYwokRGUGph3Mf37k",
+     "url":"TT2R5B9F3EQ",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/NewYork/TT/New%20York%20Central%20Park/256422.jpg?raw=true"
+  },
+  {
+    "startTime": "260.30",
+    "endTime": "267.14",
+    "place": "뉴욕 센트럴파크 Sheep Meadow",
+    "googlePlace": "New York Sheep Meadow",
+    "describe": "잔디밭 너머 스카이라인 조망이 뛰어난 센트럴파크 대표 포인트.",
+    "realname": "확실함",
+    "emozi": "🌿🌳",
+    "category": "Attraction",
+    "location": {
+      "lat": 40.7717813,
+      "lng": -73.9748418
+    },
+    "id": "ChIJezBcrvNYwokRCGwwAfivN4g",
+     "url":"TT2R5B9F3EQ",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/NewYork/TT/New%20York%20Sheep%20Meadow/264639.jpg?raw=true"
+  },
+  {
+    "startTime": "267.14",
+    "endTime": "273.62",
+    "place": "뉴욕 센트럴파크 Bethesda Terrace Arcade",
+    "googlePlace": "New York Bethesda Terrace Arcade",
+    "describe": "아치형 회랑과 세계 유일의 민턴 타일 천장. 인근 베데스다 분수·연못과 함께 산책 코스로 인기.",
+    "realname": "확실함",
+    "emozi": "🏛️⛲",
+    "category": "Attraction",
+    "location": {
+      "lat": 40.7739528,
+      "lng": -73.97096570000001
+    },
+    "id": "ChIJEYYWppJYwokRUTul6ztwlJ0",
+     "url":"TT2R5B9F3EQ",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/NewYork/TT/New%20York%20Bethesda%20Terrace%20Arcade/268601.jpg?raw=true"
+  },
+  {
+    "startTime": "284.62",
+    "endTime": "307.50",
+    "place": "뉴욕 어퍼웨스트 American Museum of Natural History",
+    "googlePlace": "New York American Museum of Natural History",
+    "describe": "신관 Gilder Center와 ‘Invisible Worlds’ 체험, 나비관, 공룡 화석·거대 고래 모형 등 가족 방문에 최적.",
+    "realname": "확실함",
+    "emozi": "🦖🦋",
+    "category": "Attraction",
+    "location": {
+      "lat": 40.7813241,
+      "lng": -73.9739882
+    },
+    "id": "ChIJCXoPsPRYwokRsV1MYnKBfaI",
+     "url":"TT2R5B9F3EQ",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/NewYork/TT/New%20York%20American%20Museum%20of%20Natural%20History/293209.jpg?raw=true"
+  },
+  {
+    "startTime": "314.34",
+    "endTime": "333.42",
+    "place": "뉴욕 타임스스퀘어 John's of Times Square",
+    "googlePlace": "New York John's of Times Square",
+    "describe": "옛 교회 건물 내부의 피자집. 브로드웨이 관람 전후 식사로 제격, 탄탄한 화덕 피자 맛.",
+    "realname": "확실함",
+    "emozi": "🍕⛪",
+    "category": "Food and Beverage",
+    "location": {
+      "lat": 40.7582117,
+      "lng": -73.98839579999999
+    },
+    "id": "ChIJBSESh1RYwokRyHcVnrG7JWo",
+     "url":"TT2R5B9F3EQ",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/NewYork/TT/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202026-01-20%20114258.png?raw=true"
+  },
+  {
+    "startTime": "333.42",
+    "endTime": "356.82",
+    "place": "뉴욕 타임스스퀘어 Father Duffy Square",
+    "googlePlace": "New York Time square",
+    "describe": "빅 레드 스텝스 인근의 대표 포토 스팟. 관광지 혼잡·호객 사기 주의.",
+    "realname": "확실함",
+    "emozi": "📸✨",
+    "category": "Attraction",
+    "location": {
+      "lat": 40.7590077,
+      "lng": -73.9850222
+    },
+    "id": "ChIJk-utwVVYwokRx--LhLcP2cA",
+     "url":"TT2R5B9F3EQ",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/NewYork/TT/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202026-01-20%20122545.png?raw=true"
+  },
+  {
+    "startTime": "356.82",
+    "endTime": "371.08",
+    "place": "뉴욕 타임스스퀘어 Grand Slam New York",
+    "googlePlace": "New York Grand Slam New York",
+    "describe": "‘I ❤️ NY’ 티셔츠, 열쇠고리 등 기념품을 저렴하게 살 수 있는 대형 숍.",
+    "realname": "확실함",
+    "emozi": "🛍️🗽",
+    "category": "Shopping",
+    "location": {
+      "lat": 40.7591631,
+      "lng": -73.9854098
+    },
+    "id": "ChIJpR1ctlVYwokRbXUoLbLNilE",
+     "url":"TT2R5B9F3EQ",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/NewYork/TT/New%20York%20Grand%20Slam%20New%20York/361986.jpg?raw=true"
+  },
+  {
+    "startTime": "371.08",
+    "endTime": "391.10",
+    "place": "뉴욕 타임스스퀘어 Beast & Butterflies (M Social Hotel)",
+    "googlePlace": "New York Beast & Butterflies",
+    "describe": "M Social Hotel 내 루프탑 바로 타임스스퀘어 전망이 뛰어나며, 음식·칵테일 우수. 동반 아동 입장 가능.",
+    "realname": "확실함",
+    "emozi": "🍸🌆",
+    "category": "Food and Beverage",
+    "location": {
+      "lat": 40.7628067,
+      "lng": -73.9836851
+    },
+    "id": "ChIJY_i13TlZwokRhqLyKOfg808",
+     "url":"TT2R5B9F3EQ",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/NewYork/TT/New%20York%20Beast%20&%20Butterflies/373164.jpg?raw=true"
+  },
+  {
+    "startTime": "398.3",
+    "endTime": "410.42",
+    "place": "뉴욕 로어맨해튼 Pearl Diner",
+    "googlePlace": "New York Pearl Diner",
+    "describe": "50년 넘게 지역민을 받아온 클래식 다이너, 10~20달러대로 든든하고 노스텔지아 있는 아침",
+    "realname": "확실함",
+    "emozi": "🍳☕",
+    "category": "Food and Beverage",
+    "location": {
+      "lat": 40.7069432,
+      "lng": -74.0062813
+    },
+    "id": "ChIJQ6hGfD1awokRebQ1HJwMDcw",
+     "url":"TT2R5B9F3EQ",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/NewYork/TT/New%20York%20Pearl%20Diner/399065.jpg?raw=true"
+  },
+  {
+    "startTime": "414.06",
+    "endTime": "429.24",
+    "place": "뉴욕 월드 트레이드 센터 9/11 Memorial",
+    "googlePlace": "New York 9/11 Memorial",
+    "describe": "쌍둥이 빌딩 발자취를 표시한 추모 분수, 조용한 성찰을 위한 공간",
+    "realname": "확실함",
+    "emozi": "🕊️💧",
+    "category": "Attraction",
+    "location": {
+      "lat": 40.7115776,
+      "lng": -74.0133362
+    },
+    "id": "ChIJRcvoOxpawokR7R4dQMXMMPQ",
+     "url":"TT2R5B9F3EQ",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/NewYork/TT/New%20York%209/11%20Memorial/417041.jpg?raw=true"
+  },
+  {
+    "startTime": "432.02",
+    "endTime": "446.78",
+    "place": "뉴욕 월드 트레이드 센터 The Oculus",
+    "googlePlace": "New York The Oculus",
+    "describe": "미래적인 교통 허브 겸 쇼핑몰, 매년 9월 11일 채광창이 열리는 건축 포인트",
+    "realname": "확실함",
+    "emozi": "🏛️📸",
+    "category": "Attraction",
+    "location": {
+      "lat": 40.7114424,
+      "lng": -74.0107697
+    },
+    "id": "ChIJITRipBlawokRR1y2EcOQ_vM",
+     "url":"TT2R5B9F3EQ",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/NewYork/TT/New%20York%20The%20Oculus/434892.jpg?raw=true"
+  },
+  {
+    "startTime": "454.12",
+    "endTime": "474.6",
+    "place": "뉴욕 리버티 아일랜드 Statue of Liberty",
+    "googlePlace": "New York Statue of Liberty",
+    "describe": "자유의 여신상 관람, 크라운 입장은 몇 달 전 예약 필요",
+    "realname": "확실함",
+    "emozi": "🗽🌅",
+    "category": "Attraction",
+    "location": {
+      "lat": 40.6892494,
+      "lng": -74.04450039999999
+    },
+    "id": "ChIJPTacEpBQwokRKwIlDXelxkA",
+     "url":"TT2R5B9F3EQ",
+     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/NewYork/TT/New%20York%20Statue%20of%20Liberty/455288.jpg?raw=true"
+  },
+  {
+    "startTime": "486.12",
+    "endTime": "491.64",
+    "place": "뉴욕 엘리스 아일랜드 Ellis Island",
+    "googlePlace": "New York Ellis Island",
+    "describe": "1892~1954년 1,200만 명 이상 이민자의 관문이었던 역사적 장소",
+    "realname": "확실함",
+    "emozi": "🏛️🛳️",
+    "category": "Attraction",
+    "location": {
+      "lat": 40.6994748,
+      "lng": -74.0395587
+    },
+    "id": "ChIJDw5fGZpQwokR69Yikp1Go9I",
+    "image":"https://github.com/jongpilbest/image_iui_file/blob/main/NewYork/TT/New%20York%20Ellis%20Island%20Cafe/482273.jpg?raw=true"
+  }
+]
