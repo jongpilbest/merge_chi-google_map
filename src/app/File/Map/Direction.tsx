@@ -68,16 +68,17 @@ function Direction({ polylinesRef, color = "#ff0000", check }: Prop) {
     stepMarkerFillColor: "#333333",
     stepMarkerBorderColor: "#000000",
   };
+  console.log(Find_index_mark,comment,'확읹홈')
 
   // ✅ Route 배열 memoization (comment 바뀔 때마다 새로 생성)
   const routesToRender = useMemo(() => {
-    console.log(comment,'코멘츠',Find_index_mark)
+   
     if(comment.length<=0) return ;
     if(Find_index_mark<0) return;
     if(comment[Find_index_mark].length<=1) return;
 
     const segment= comment[Find_index_mark]
-    console.log(segment,'?anjdla')
+    console.log(segment,'?anjdla',comment)
    if(segment==undefined) return;
 
       map.panTo({
@@ -95,7 +96,7 @@ function Direction({ polylinesRef, color = "#ff0000", check }: Prop) {
           <Route
           index={i}
           onDurationCalculated={(index,e)=>handleDurationCalculated(index,e)}
-            key={`route--${origin.latLng.latitude}${routeList.length}${Date.now()}`} // ✅ comment 변할 때마다 key 변경
+            key={`route--${origin.latLng.latitude}${routeList.length}${Date.now()}`} 
             apiClient={apiClient}
             origin={origin}
             destination={destination}

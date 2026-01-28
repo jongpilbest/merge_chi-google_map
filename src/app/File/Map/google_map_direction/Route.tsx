@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useMemo, useRef, useState } from "react";
 import { Polyline } from "./Polylines";
 import { useMap } from "@vis.gl/react-google-maps";
 
@@ -15,7 +15,7 @@ function Route({
   const map = useMap();
   const didRun = useRef(false); // ✅ 실행 여부 체크
  
-  useEffect(() => {
+  useMemo(() => {
     if (!map || didRun.current) return;
 
     // 여기 줌인 하는거 넣어줘 

@@ -9,7 +9,7 @@ export default function Map_Viewer_inner({id_key}) {
   const dispatch= useDispatch();
 
 const { color_location } = useSelector((state: any) => state.data_store);
-
+console.log(color_location,'칼라')
 
   const [selected, setSelected] = useState<boolean>(false); 
 
@@ -76,6 +76,7 @@ const { color_location } = useSelector((state: any) => state.data_store);
             
               onClick={(e) => {
                 e.preventDefault();
+               
                 dispatch(personal_color_place({
                   key:id_key ,
                   index:index+1}))

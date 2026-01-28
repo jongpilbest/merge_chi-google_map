@@ -12,6 +12,7 @@ export default function Marker_set({ comment }: any) {
 const { like_location, clicked_marker_id,color_location ,video_mareker_id,category_name} = useSelector((state: any) => state.data_store);
 
 
+
   // useMemo로 Marker 계산 (comment나 current_index 바뀔 때만 새로 계산)
   const markers = useMemo(() => {
    return  Object.values(comment).map((El)=>{ // 기본 색상

@@ -250,7 +250,7 @@ useEffect(() => {
         )
     
 
-}, [color_location]);
+}, [color_location,pick_day]);
 
 
     
@@ -284,7 +284,7 @@ const Travel_Day2 = function(){
    
   const hey = [...original_route];
   hey[pick_day-1] = Route_location;
-
+ console.log(hey,'값')
 
       dispatch(chnage_original_route_data(hey));
       dispatch(Time_Duration({ first: filter_comment.length - 1 }));

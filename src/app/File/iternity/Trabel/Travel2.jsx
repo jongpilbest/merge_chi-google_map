@@ -88,7 +88,7 @@ useEffect(() => {
                   .flat(Infinity)
                   .find((item) => item.id === key)
                  )
-                 console.log(comment_filter,'뭐임?')
+         
                 
                set_filter_comment(comment_filter)
               setSelectedDay(e);
@@ -103,9 +103,10 @@ const Travel_Day = function(){
        dispatch(Time_Duration({ first:filter_comment.length-1}))
        const Route_location= filter_comment.map((el)=>Object.values(el.location))
 
-      //여기 뭔지 다시 확인해줘  
+
     
        dispatch(chnage_original_route_data([Route_location]))
+       console.log(Route_location,'이게뭐임?????????????????')
        dispatch(change_selected_mark(0))
        dispatch(change_check_Check())
  
