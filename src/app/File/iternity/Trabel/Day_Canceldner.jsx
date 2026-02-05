@@ -16,7 +16,7 @@ export const Day_canlendar= function({setRange_fun,range}){
                    onClick={() => {
                        setShowStartPicker(!showStartPicker);
                      }}
-                className=" flex py-5 gap-4 relative    justify-between w-full ">
+                className=" flex py-3 gap-4 relative    justify-between w-full ">
                    <div
                      className="flex items-center 
                           
@@ -29,7 +29,7 @@ export const Day_canlendar= function({setRange_fun,range}){
                        className="w-full 
                        
                        
-                       text-sm text-gray-700 placeholder-gray-400 outline-none cursor-pointer"
+                       text-xs text-gray-700 placeholder-gray-400 outline-none cursor-pointer"
                        placeholder="Start date"
                        value={formatDate(range.from)}
                      />
@@ -76,7 +76,7 @@ export const Day_canlendar= function({setRange_fun,range}){
                      <FaRegCalendarAlt className="text-gray-500" />
                      <input
                        readOnly
-                       className="w-full text-sm text-gray-700 placeholder-gray-400 outline-none cursor-pointer"
+                       className="w-full text-xs text-gray-700 placeholder-gray-400 outline-none cursor-pointer"
                        placeholder="End date"
                        value={formatDate(range.to)}
                      />

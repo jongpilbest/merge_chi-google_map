@@ -44,7 +44,7 @@ export const Task = ({ id, El, idx }) => {
         {...listeners}
         className=" text-gray-400 flex  justify-center w-full bg-gray-100 "
       >
-        <p className="text-md">☰</p>
+        <p className="text-xs">⠿ 장소 순서 변경</p>
       </div>
 
       {/* ✅ Inner_compont 클릭 정상 */}

@@ -11,7 +11,7 @@ export default function Controll({Change,Choice}) {
 
   return (
      <header className="w-full h-15 flex  justify-between  items-center px-8 bg-white border-b border-gray-300">
-      <div className=' flex items-center flex-[1.2]'>
+      <div className=' flex items-center flex-[1.5]'>
       <div className="  bg-[#0E9E86] p-1 rounded-md">
   <LuMapPin
   className="text-md"

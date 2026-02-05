@@ -17,7 +17,7 @@ export default function DateRangePicker() {
     <div className="pt-5 pb-3 flex gap-10 items-center border-b  justify-between border-gray-200">
 
 
-        <p className="text-md font-bold text-black">My itinerary</p>
+        <p className="text-sm font-bold text-black">My itinerary</p>
           <div className="flex items-center shadow rounded-2xl px-1   ">
            
 

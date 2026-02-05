@@ -1,94 +1,36 @@
 [
-      {"city": "Paris",
-    "startTime": "75.36",
-    "endTime": "86.72",
-      "url":"qkwL2jC4WI0",
-    "place": "파리 레 알 Au Pied de Cochon",
-    "googlePlace": "Au Pied de Cochon",
-    "describe": "레 알 근처의 클래식 브라세리. 프렌치 어니언 수프와 샤르퀴트리로 유명",
-    "realname": "확실함",
-    "Data":1,
-    "emozi": "🥖B",
-    "category": "Food and Beverage",
-    "location": {
-      "lat": 48.863644615491985,
-      "lng":  2.3438723011865044
-    },
-    "id": "ChIJQQtKZyJu5kcRhXhHvOUt3To",
-    "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/qkwL2jC4WI0/Au%20Pied%20de%20Cochon/81300.jpg?raw=true"
-  },
-  
-  {
-    "city": "Paris",
-    "startTime": "105",
-    "url":"qkwL2jC4WI0",
-    "endTime": "108",
-    "place": "유투버가 묵은 호텔 ",
-    "googlePlace": "hotel odeon saint-germain",
-    "describe": "유투버가 묵은 호텔",
-    "realname": "확실함",
-    "emozi": "🏨A",
-    "category": "Accommodation",
-    "location": {
-      "lat": 48.850117,
-      "lng":2.336159 
-    },
-    "id": "ChIJlRJRWNlx5kcR3nZXR2iDFgo",
-    "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/qkwL2jC4WI0/Eiffel%20Tower/128866.jpg?raw=true"
-    ,"Data":1
-  },
-
-  {"city": "Paris",
-    "startTime": "239.12",
-    "endTime": "244.56",
-      "url":"qkwL2jC4WI0",
-    "place": "파리 콩코르드 광장 Place de la Concorde",
-    "googlePlace": "Place de la Concorde",
-    "describe": "오벨리스크와 분수가 있는 대광장, 사진 명소",
-    "realname": "확실함",
-    "emozi": "🏛️E",
-    "category": "Attraction",
-    "location": {
-      "lat": 48.8656331,
-      "lng": 2.3212357
-    },
-    "id": "ChIJAQquYc1v5kcRLKslDuENAxg",
-    "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/qkwL2jC4WI0/Place%20de%20la%20Concorde/244733.jpg?raw=true"
-  },
- 
-  {"city": "Paris",
-    "startTime": "274.08",
-      "url":"qkwL2jC4WI0",
-    "endTime": "279.92",
-    "place": "파리 방돔 Café Dalayrac",
-    "googlePlace": "Café Dalayrac",
-    "describe": "방돔 인근 전통 비스트로, 바게트 샌드위치로 인기",
-    "realname": "확실함",
-    "emozi": "🥖D",
-    "category": "Food and Beverage",
-    "location": {
-      "lat": 48.86756793314445,
-      "lng":  2.3349526839906147
-    },
-    "id": "ChIJYUweozpu5kcRTyO2eRFXxJU",
-    "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/qkwL2jC4WI0/Le%20Petit%20Vend%C3%B4me/277900.jpg?raw=true"
-  },
-  
-  {"city": "Paris",
+     {"city": "Paris",
     "startTime": "430.96",
       "url":"qkwL2jC4WI0",
     "endTime": "458.00",
-    "place": "파리 루브르 Musée du Louvre",
-    "googlePlace": "Louvre Museum",
+    "place": "나미송",
+    "googlePlace": "나미송 머무는 곳",
     "describe": "세계에서 가장 많은 관람객을 맞는 미술관, 가이드 투어 추천",
     "realname": "확실함",
-    "emozi": "🖼️C",
+    "emozi": "A",
     "category": "Attraction",
     "location": {
-      "lat": 48.8606111,
-      "lng": 2.337644
+      "lat":33.429742,
+      "lng": 126.416327 
     },
-    "id": "ChIJD3uTd9hx5kcR1IQvGfr8dbk",
+    "id": "ChIJCbULqXX3DDURArUIdlnyjPA",
+    "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/qkwL2jC4WI0/Louvre%20Museum/435333.jpg?raw=true"
+  }, 
+   {"city": "Paris",
+    "startTime": "430.96",
+    "url":"qkwL2jC4WI0",
+    "endTime": "458.00",
+    "place": "해비치 호텔 ",
+    "googlePlace": "해비치 호텔앤드리조트 제주",
+    "describe": "세계에서 가장 많은 관람객을 맞는 미술관, 가이드 투어 추천",
+    "realname": "확실함",
+    "emozi": "B",
+    "category": "Attraction",
+    "location": {
+      "lat": 33.32345,
+      "lng":126.84478
+    },
+    "id": "ChIJLyua3MoODTUR-rB0bCb_jlo",
     "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/qkwL2jC4WI0/Louvre%20Museum/435333.jpg?raw=true"
   }
   

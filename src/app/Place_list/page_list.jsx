@@ -15,8 +15,9 @@ import { set_category_name } from '../Redux/store';
        { id: "Attraction", label: "Attraction" },
         { id: "Transportation", label: "Transportation" },
     { id: "Accommodation", label: "Accommodation" },
+      {id:'remove highlight',label:'remove highlight'},
     {id:"Experiment",label:"Experiment"},
-       {id:'cancel',label:'cancel'},
+     
    
 
   ];

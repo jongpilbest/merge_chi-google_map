@@ -16,7 +16,7 @@ export default function Inner_compont({data,index}) {
 
   return (
   
-          <div className=' w-full h-23  shadow-md gap-2 bg-gray-100 my-4 rounded-md flex items-center p-2 flex-row '>
+          <div className=' w-full h-20  shadow-md gap-2 bg-gray-100 my-2 rounded-md flex items-center p-2 flex-row '>
             <div className='w-[40%] h-full '>
                 <Image
                 alt={data.googlePlace}
@@ -62,7 +62,7 @@ export default function Inner_compont({data,index}) {
               onClick={()=>dispatch(map_click_toggle(data.id))}
               className='hover:bg-gray-200 bg-white rounded-md h-6 w-[45%] px-2 flex items-center gap-3 '>
                 <LuMapPin  className='text-black'></LuMapPin>
-                <p className='text-xs text-black  '>Map</p>
+                <p className='text-xs text-black  '>Detail</p>
               </button>
             </div>
         

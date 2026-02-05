@@ -11,8 +11,8 @@ export default function CategoryTabs({children,tabs,change_category }) {
  
 
   return (
-    <div className="flex overflow-y-auto  border-gray-200 w-full flex-col ">
-        <div className=" flex h-12  overflow-x-auto overflow-y-hidden no-scrollbar w-full">
+    <div className="flex overflow-y-auto  py-2 border-gray-200 w-full flex-col ">
+        <div className=" flex h-10  overflow-x-auto overflow-y-hidden no-scrollbar w-full">
       
        {tabs.map((tab,index) => (
         <button

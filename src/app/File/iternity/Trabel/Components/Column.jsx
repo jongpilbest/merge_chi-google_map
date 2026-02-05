@@ -39,9 +39,9 @@ const time_total= time_changer(totalTime)
 
   return (
     <div className="column">
-      <div className="flex  p-4  justify-between ">
-        <p className="font-bold">Total Time </p>
-         <p> {time_total}  </p>
+      <div className="flex  p-2  justify-between ">
+        <p className="font-bold text-sm">Total Time </p>
+         <p className="text-sm"> {time_total}  </p>
       </div>
       <SortableContext items={tasks} strategy={verticalListSortingStrategy}>
         {tasks&&tasks.length>0&& tasks.map((task,index) => (

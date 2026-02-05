@@ -303,8 +303,8 @@ const Travel_Day2 = function(){
          onClick={()=> Travel_Day()}
          className="
          hover:bg-green-500
-         bg-[#47D6A2] rounded-md text-white py-2 text-sm">
-          Distance-driven itinerary planning
+         bg-[#47D6A2] rounded-md text-white py-2 text-xs">
+         거리 기반 전체 일정 생성
          </button>
            </div>
            <div className="h-full flex-1  overflow-y-auto">
@@ -323,8 +323,8 @@ const Travel_Day2 = function(){
          hover:bg-green-500  
           h-8
           mt-5
-         bg-[#47D6A2] rounded-md text-white  text-sm">
-          Itinerary restructuring
+         bg-[#339d76] rounded-md text-white  text-xs">
+         날짜별 일정  수정
          </button>
           }
             </DndContext>
