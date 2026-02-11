@@ -1,4 +1,4 @@
-import { Children, useState } from "react";
+import { Children, useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
 import Inner_compont from "./Inner_compont";
 
@@ -6,47 +6,44 @@ export default function CategoryTabs({children,tabs,change_category }) {
 
   const [activeTab, setActiveTab] = useState(tabs[0].id);
   
-
+ useEffect(()=>{
+  change_category(tabs[0].id)
+ },[])
 
  
 
   return (
-    <div className="flex overflow-y-auto  py-2 border-gray-200 w-full flex-col ">
-        <div className=" flex h-10  overflow-x-auto overflow-y-hidden no-scrollbar w-full">
-      
-       {tabs.map((tab,index) => (
-        <button
-          key={tab.id}
-          onClick={() => {setActiveTab(tab.id)
-             //dispatch(index)
-             // 여기에서 몇일인지 뽑아서 보내주면 됨 
+ <div className="overflow-y-auto ">
+  
+  {/* 🔒 고정 영역 */}
+  <div className="
+    sticky top-0 z-20 bg-white
+    flex h-8 overflow-x-auto overflow-y-hidden no-scrollbar w-full
+  ">
+    {tabs.map((tab) => (
+      <button
+        key={tab.id}
+        onClick={() => {
+          setActiveTab(tab.id);
+          change_category(tab.id);
+        }}
+        className={`relative shrink-0 px-4 mx-5 text-xs
+          ${activeTab === tab.id ? "text-[#2BB67E]" : "text-gray-600"}`}
+      >
+        {tab.label}
+        {activeTab === tab.id && (
+          <span className="absolute top-0 left-0 w-full h-[6px] bg-[#fd81de]" />
+        )}
+      </button>
+    ))}
+  </div>
 
-             change_category(tab.id)
-          }}
-          className={`relative px-4     text-gray-600 text-xs  mx-5 transition-colors duration-200
-            ${activeTab === tab.id ? "text-[#2BB67E]" : "hover:text-gray-800"}`}
-        > 
-          {tab.label}
-          {activeTab === tab.id && (
-    
+  {/* 🔽 스크롤 영역 */}
+  <div className="flex-1 overflow-y-auto py-2">
+    {children}
+  </div>
 
-           
-            <span className="absolute top-0 left-0 w-full h-[6px] bg-[#2BB67E] rounded-t-lg"></span>
-     
-          )}
-        </button>
-      ))}
-            </div>
+</div>
 
-    
-
-
-     {children}    
-
-    
-   
- 
-    </div>
-    
   );
 }

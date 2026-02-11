@@ -82,8 +82,8 @@ export default function Youtube_link_input({children}) {
   <div className="flex items-center flex-1 bg-gray-100  shadow rounded-md px-3 py-1">
     <input 
       ref={url_youtube}
-      placeholder="Please enter a YouTube link"
-      className="text-xs h-6 px-2 w-full text-gray-800  bg-transparent outline-none placeholder-gray-400"
+      placeholder="유투브 링크를 삽입해주세요"
+      className="text-xs h-6 px-2 w-full text-gray-800  bg-transparent outline-none placeholder-gray-700"
     />
     <button
       onClick={handleSubmit}

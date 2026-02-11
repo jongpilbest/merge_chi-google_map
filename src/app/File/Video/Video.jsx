@@ -15,10 +15,10 @@ export default function Page() {
   const youtube_link = useSelector((state) => state.url.url_current);
 
   return (
-    <div className=" flex-[1.1] px-8 bg-white flex flex-col" >
+    <div className=" flex-[1] px-8 bg-white flex flex-col" >
          <div className="
          justify-between
-         pt-3 pb-3 flex gap-10 items-center border-b border-gray-200">
+         pt-2 pb-2 flex gap-10 items-center border-b border-gray-200">
 
   
           <p className="text-sm font-bold text-black">Video</p>
@@ -26,7 +26,7 @@ export default function Page() {
 
 
          </div>
-         <div className="pt-3 h-full">
+         <div className="pt-2 h-full">
    <VideoPlayer
      
        ref={playerRef}

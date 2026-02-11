@@ -302,9 +302,9 @@ const Travel_Day2 = function(){
          <button 
          onClick={()=> Travel_Day()}
          className="
-         hover:bg-green-500
+         hover:bg-pink-500
          bg-[#47D6A2] rounded-md text-white py-2 text-xs">
-         거리 기반 전체 일정 생성
+       일자별 일정 자동 생성
          </button>
            </div>
            <div className="h-full flex-1  overflow-y-auto">
@@ -317,20 +317,27 @@ const Travel_Day2 = function(){
       >
         <Column id="toDo" tasks={filter_comment} />
     
-        {filter_comment.length>0 &&  <button 
-         onClick={()=> Travel_Day2()}
-         className=" w-full
-         hover:bg-green-500  
-          h-8
-          mt-5
-         bg-[#339d76] rounded-md text-white  text-xs">
-         날짜별 일정  수정
-         </button>
-          }
             </DndContext>
                </Drawer>        
        
-   }
+   }  {filter_comment.length > 1 && (
+          <div className="sticky bottom-0 bg-white z-20 ">
+            <button
+              onClick={() => Travel_Day2()}
+              className="
+                w-full
+                h-8
+                bg-[#fd81de]
+                hover:bg-green-500
+                rounded-md
+                text-white
+                text-xs
+              "
+            >
+              일자별 일정 수정
+            </button>
+          </div>
+        )}
        </div>
    </>
 

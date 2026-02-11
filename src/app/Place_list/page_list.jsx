@@ -10,13 +10,13 @@ import { set_category_name } from '../Redux/store';
   const tabs = [
     {id:'All', label:'All'},
    
-    { id: "Food and Beverage", label: "Food and Beverage" },
-     { id: "Shopping", label: "Shopping" },
-       { id: "Attraction", label: "Attraction" },
-        { id: "Transportation", label: "Transportation" },
-    { id: "Accommodation", label: "Accommodation" },
-      {id:'remove highlight',label:'remove highlight'},
-    {id:"Experiment",label:"Experiment"},
+    { id: "Food and Beverage", label: "음식&음료" },
+     { id: "Shopping", label: "쇼핑" },
+       { id: "Attraction", label: "관광지" },
+        { id: "Transportation", label: "교통" },
+    { id: "Accommodation", label: "숙소" },
+      {id:'remove highlight',label:'하이라이트 지우기'},
+    {id:"Experiment",label:"실험데이터"},
      
    
 
@@ -83,10 +83,10 @@ export default function page_list() {
   return (
     <div className="flex flex-2 flex-col px-8 h-full overflow-hidden relative">
 
-      <div className="pt-3 pb-3 flex gap-10 items-center border-b border-gray-200">
+      <div className="pt-2 pb-2 flex gap-10 items-center border-b border-gray-200">
        {modal.modal && (
   <div className="absolute inset-0 z-50 bg-white flex flex-col px-8 rounded-md">
-    <div className="w-full h-full shadow-xl flex flex-col">
+    <div className="w-full h-full shadow-xl flex flex-col ">
 
       <header className="h-14 py-4 bg-gray-100 flex justify-between items-center px-3 border-b border-gray-200">
         <p className="

@@ -16,12 +16,12 @@ export const Day_canlendar= function({setRange_fun,range}){
                    onClick={() => {
                        setShowStartPicker(!showStartPicker);
                      }}
-                className=" flex py-3 gap-4 relative    justify-between w-full ">
+                className=" flex py-2 gap-4 relative    justify-between w-full ">
                    <div
                      className="flex items-center 
                           
                      w-[50%]
-                     bg-gray-100 border border-gray-200 rounded-md px-3 gap-2 py-2 cursor-pointer"
+                     bg-gray-100 border border-gray-200 rounded-md px-3 gap-2 py-1 cursor-pointer"
                    >
                      <FaRegCalendarAlt className="text-gray-500" />
                      <input
@@ -30,7 +30,7 @@ export const Day_canlendar= function({setRange_fun,range}){
                        
                        
                        text-xs text-gray-700 placeholder-gray-400 outline-none cursor-pointer"
-                       placeholder="Start date"
+                       placeholder="여행 시작일"
                        value={formatDate(range.from)}
                      />
                    </div>
@@ -55,7 +55,7 @@ export const Day_canlendar= function({setRange_fun,range}){
                            onClick={() => setShowStartPicker((el)=>!el)}
                            className="mt-2 bg-gray-200 px-3 py-1 rounded-md"
                          >
-                           Start planning
+                          일정 확정하기
                          </button>
                      </div>
                        
@@ -71,13 +71,13 @@ export const Day_canlendar= function({setRange_fun,range}){
                    <div
                      className="flex items-center gap-2 
                      w-[50%]
-                     bg-gray-100  border border-gray-200 rounded-md px-3 py-2 cursor-pointer"
+                     bg-gray-100  border border-gray-200 rounded-md px-3 py-1 cursor-pointer"
                    >
                      <FaRegCalendarAlt className="text-gray-500" />
                      <input
                        readOnly
                        className="w-full text-xs text-gray-700 placeholder-gray-400 outline-none cursor-pointer"
-                       placeholder="End date"
+                       placeholder="여행 종료일"
                        value={formatDate(range.to)}
                      />
                 

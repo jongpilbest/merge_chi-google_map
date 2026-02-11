@@ -10,7 +10,7 @@ import { MdOutlineTravelExplore } from "react-icons/md";
 export default function Controll({Change,Choice}) {
 
   return (
-     <header className="w-full h-15 flex  justify-between  items-center px-8 bg-white border-b border-gray-300">
+     <header className="w-full h-12 flex  justify-between  items-center px-8 bg-white border-b border-gray-300">
       <div className=' flex items-center flex-[1.5]'>
       <div className="  bg-[#0E9E86] p-1 rounded-md">
   <LuMapPin
@@ -22,7 +22,7 @@ export default function Controll({Change,Choice}) {
           </div>
           <p className="font-sans font-bold text-sm mx-4 
           text-black
-          ">Videolens</p> 
+          ">VideoMap</p> 
           
       </div>
           
@@ -35,14 +35,14 @@ export default function Controll({Change,Choice}) {
     ${Choice === 'Explore' ? 'bg-[#47D6A2] text-white hover:bg-[#0E9E86]' : 'bg-white hover:bg-gray-100 text-black'}`}
        >
             <FiMapPin></FiMapPin>
-            <span  className={`text-md ${Choice === 'Explore' ? 'text-white' : 'text-black'}`}>Explore</span>
+            <span  className={`text-md ${Choice === 'Explore' ? 'text-white' : 'text-black'}`}>장소탐색</span>
           </button>
           <button 
            onClick={()=>Change('MyTrip')}
              className={`flex items-center gap-1 text-sm px-4 py-1 rounded-full shadow-sm transition-all 
     ${Choice === 'MyTrip' ? 'bg-[#47D6A2] text-white hover:bg-[#0E9E86]' : 'bg-white hover:bg-gray-100 text-black'}`}>
            <MdOutlineTravelExplore></MdOutlineTravelExplore>
-            <span   className={`text-md ${Choice === 'MyTrip' ? 'text-white' : 'text-black'}`}>My Trip</span>
+            <span   className={`text-md ${Choice === 'MyTrip' ? 'text-white' : 'text-black'}`}>일정생성</span>
           </button>
         </div>
 

@@ -30,10 +30,11 @@ const { url_list } = useSelector((state: any) => state.url);
  
     <p
       className={`
+        whitespace-nowrap
         text-xs
       text-white`}
     >
-    Videos
+    비디오 내역
     </p>
   </div>
 

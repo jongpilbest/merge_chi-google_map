@@ -39,15 +39,16 @@ const time_total= time_changer(totalTime)
 
   return (
     <div className="column">
-      <div className="flex  p-2  justify-between ">
-        <p className="font-bold text-sm">Total Time </p>
-         <p className="text-sm"> {time_total}  </p>
-      </div>
+    
       <SortableContext items={tasks} strategy={verticalListSortingStrategy}>
         {tasks&&tasks.length>0&& tasks.map((task,index) => (
           <Task key={task.id} id={task.id} El={task}  idx={index} />
         ))}
       </SortableContext>
+        <div className="flex  p-2  justify-between ">
+        <p className="font-bold text-sm">전체 이동 시간 </p>
+         <p className="text-sm"> {time_total}  </p>
+      </div>
     </div>
   );
 };

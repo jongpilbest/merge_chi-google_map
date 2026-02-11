@@ -35,7 +35,7 @@ const queryClient = new QueryClient();
   <div className="flex flex-col h-screen w-full bg-amber-700">
  
     {/* 상단 고정 Controller */}
-    <div className="h-15 bg-white">
+    <div className="h-12 bg-white">
       <Controller Change={(e)=>Change(e)} Choice={Choice}/>
     </div>
 

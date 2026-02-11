@@ -2,7 +2,7 @@
   
 const PAris_Data = [
   {
-    city:"Paris",
+    city:"파리",
     name: "파리",
  description: "예술과 낭만, 그리고 고풍스러운 우아함이 깃든 유럽의 심장부입니다. 세계적인 랜드마크인 에펠탑과 루브르 박물관, 세느강 변의 노천카페와 화려한 오트쿠튀르 패션의 정수를 경험할 수 있습니다.",
 tagging: "#CityOfLove #ArtAndFashion",
@@ -15,7 +15,7 @@ tagging: "#CityOfLove #ArtAndFashion",
     },
     
      {
-    city:"Newyork",
+    city:"뉴욕",
     name: "뉴욕",
  description: "세계 금융과 문화의 중심지로, 초고층 빌딩과 다양한 문화가 어우러진 역동적인 대도시입니다.",
 tagging: "#GlobalCity #CulturalHub",
@@ -27,7 +27,7 @@ tagging: "#GlobalCity #CulturalHub",
     image:'https://i.namu.wiki/i/GhRScrmtLIlWQgtu0Yih4Udh1dPrMQ9a__J3mr8Q-q4bDBwQ2pzif0NXcDJvzSph-R5I-nWcjN9R3RjVknqmKg.webp'
     },
      {
-    city:"Nice [ tutorial ]",
+    city:"니스 [ 튜토리얼 ]",
     name: "니스",
  description: "지중해 연안에 위치한 항구 도시로, 해변과 구시가지, 항만 시설이 함께 형성된 도시입니다",
 tagging: "#Mediterranean #Port ",

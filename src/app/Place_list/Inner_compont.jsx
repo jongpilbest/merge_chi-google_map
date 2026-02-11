@@ -55,14 +55,14 @@ export default function Inner_compont({data,index}) {
               }}
               className='hover:bg-green-300 bg-green-200 rounded-md h-6 w-[45%] px-2 flex items-center gap-3   '>
                  <RiFindReplaceLine className='text-black' ></RiFindReplaceLine>
-                 <p className='text-xs text-black '>Find</p>
+                 <p className='text-xs text-black truncate '>위치찾기</p>
               </button>
           
               <button 
               onClick={()=>dispatch(map_click_toggle(data.id))}
               className='hover:bg-gray-200 bg-white rounded-md h-6 w-[45%] px-2 flex items-center gap-3 '>
                 <LuMapPin  className='text-black'></LuMapPin>
-                <p className='text-xs text-black  '>Detail</p>
+                <p className='text-xs text-black truncate  '>상세정보</p>
               </button>
             </div>
         
