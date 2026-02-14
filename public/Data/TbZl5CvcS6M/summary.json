@@ -55,7 +55,7 @@
     },
     "id": "ChIJrVd0ALvazRIRgZ9_9PW3Zwo"
       ,"url":"TbZl5CvcS6M",
-      "Data":"Experiment"
+     "Data":"Experiment"
   },
     {"city":"Nice",
      "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true",
@@ -97,7 +97,7 @@
   {"city":"Nice",
      "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Paris/XC5ssX_RZa0/H%C3%B4tel%20de%20Sens/133900.jpg?raw=true",
      
-    "startTime": "249.360",
+    "startTime": "240.360",
     "endTime": "260",
     "place": "Nice Castle Hill Cimetière Israélite de Nice",
     "googlePlace": "Nice Cimetière Israélite de Nice",
@@ -115,7 +115,7 @@
   {"city":"Nice",
       "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Nice/Nice%20Parc%20de%20la%20Colline%20du%20Ch%C3%A2teau/224160.jpg?raw=true",
     "startTime": "225.760",
-    "endTime": "241.360",
+    "endTime": "231.360",
     "place": "Nice Castle Hill Parc de la Colline du Château",
     "googlePlace": "Nice Parc de la Colline du Château",
     "describe": "니스를 한눈에 담는 성채 언덕 공원, 여러 전망 포인트와 유적",
@@ -132,7 +132,7 @@
   {"city":"Nice",
       "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Nice/Nice%20Cascade%20du%20Ch%C3%A2teau/275680.jpg?raw=true",
     "startTime": "269.120",
-    "endTime": "275.960",
+    "endTime": "277.960",
     "place": "Nice Castle Hill Cascade du Château",
     "googlePlace": "Nice Cascade du Château",
     "describe": "언덕 정상의 인공 폭포, 사진 명소이자 최고의 전망 포인트",

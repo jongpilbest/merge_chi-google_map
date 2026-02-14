@@ -26,7 +26,7 @@ export default function Watch_video({index,startTime}) {
           
            className='rounded-md text-xs px-1 py-1 font-m flex items-center gap-3 '> 
                <IoVideocamSharp></IoVideocamSharp>
-           <p>View</p>
+           <p>비디오 보기</p>
             </button>
    
          </div>

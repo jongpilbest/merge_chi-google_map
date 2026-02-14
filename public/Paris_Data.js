@@ -39,7 +39,6 @@ tagging: "#Mediterranean #Port ",
     image:'https://i.namu.wiki/i/UqwMZc4eOA_jk52kmvz8oYgxXkmknbjMrFXLz4wlQuXlv8QpEG1Z6QIoe9Bz1oL5vKKWe8niu_89OBiDvlHzrSlXAv7xMuyoJXgP406xpNAK5vqa5gp3Ogzo_F4GHgvPVUuKlnw7s-66T0bFiKiXJQ.webp'
     },
 
-  
 
 
 //  {

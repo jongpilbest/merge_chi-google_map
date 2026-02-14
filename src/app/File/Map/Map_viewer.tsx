@@ -107,7 +107,7 @@ export default function Map_viewer({id ,handleMarkerClick }:MapViewerProps  ) {
           </div>
           <p className="text-sm font-bold
 
-          text-gray-700">Place Summary</p>
+          text-gray-700">장소 요약정보</p>
         </div>
 
         <WatchVideo index={el[0].index} startTime={el[0].startTime} />
