@@ -13,23 +13,24 @@ export const Column = ({ tasks }) => {
    const Total_duration = useSelector(
     (state) => state.contorller.Duration_Time
   );
-  const totalTime = Total_duration.reduce((acc, cur) => {
-  const walk = cur.WALK ?? 0;
-  const transit = cur.TRANSIT ?? 0;
+
+ const totalTime = Total_duration.reduce((acc, cur) => {
+  const walk = Number(cur?.WALK) || 0;
+  const transit = Number(cur?.TRANSIT) || 0;
   return acc + walk + transit;
 }, 0);
 
+
  function time_changer( total_time){
-   if(total_time>=60*60){
-    // 인 경우에만 
-    const hours = Math.floor(total_time / 60);
-    const minutes = total_time % 60;
-     return `${hours}시간 ${minutes}분`
-   }
-   else{
-         const hours = Math.floor(total_time / 60);
-     return `${hours}분 `
-   }
+   // total_time: 초 단위
+  if (total_time >= 3600) {
+    const hours = Math.floor(total_time / 3600);
+    const minutes = Math.floor((total_time % 3600) / 60);
+    return `${hours}시간 ${minutes}분`;
+  } else {
+    const minutes = Math.floor(total_time / 60);
+    return `${minutes}분`;
+  }
 }
 
 

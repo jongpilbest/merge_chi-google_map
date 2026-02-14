@@ -8,9 +8,15 @@ export default function CategoryTabs({children,tabs,change_category }) {
   
  useEffect(()=>{
   change_category(tabs[0].id)
- },[])
+ },[tabs])
 
+ const new_tabs= function(tab){
+  if(activeTab!=tab.id){
+ setActiveTab(tab.id);
+     change_category(tab.id);
+  }  
  
+ }
 
   return (
  <div className="overflow-y-auto ">
@@ -23,10 +29,7 @@ export default function CategoryTabs({children,tabs,change_category }) {
     {tabs.map((tab) => (
       <button
         key={tab.id}
-        onClick={() => {
-          setActiveTab(tab.id);
-          change_category(tab.id);
-        }}
+        onClick={() => new_tabs(tab)}
         className={`relative shrink-0 px-4 mx-5 text-xs
           ${activeTab === tab.id ? "text-[#2BB67E]" : "text-gray-600"}`}
       >

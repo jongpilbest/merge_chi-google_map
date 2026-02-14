@@ -39,7 +39,7 @@ const counterSlice = createSlice({
       
    },
    url_out(state,action){
-    console.log(action.payload)
+   
     // 저장한 곳의 url 을 주세요라는 의미 <- handler 작업이라고 생각하면됨 
      if(state.url_current_index!= action.payload) {
           state.url_current_index=action.payload
