@@ -21,8 +21,10 @@ export const Column = ({ tasks }) => {
 }, 0);
 
 
+
  function time_changer( total_time){
    // total_time: 초 단위
+
   if (total_time >= 3600) {
     const hours = Math.floor(total_time / 3600);
     const minutes = Math.floor((total_time % 3600) / 60);

@@ -3,15 +3,16 @@
 import { useState } from 'react';
 import {Travel__} from './Trabel/Travel'
 import { Travel2 } from './Trabel/Travel2';
-export default function DateRangePicker() {
+export default function DateRangePicker({active}) {
   
   const [Auto,setAuto]=useState(
     'Auto'
   )
 
+  console.log(active,'엥')
 
   return (
-    <div className="flex flex-2 flex-col px-8 h-full overflow-hidden relative">
+    <div  className={`${active ? 'block' : 'hidden'} flex flex-2 flex-col px-8 h-full overflow-hidden relative`}  >
       {/* ✅ Start date */}
       
     <div className="pt-3 pb-2 flex gap-10 items-center border-b  justify-between border-gray-200">

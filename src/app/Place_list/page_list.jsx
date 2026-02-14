@@ -25,7 +25,7 @@ import { set_category_name } from '../Redux/store';
 
 import { useDispatch } from 'react-redux';
 
-export default function page_list() {
+export default function page_list({ active }) {
   
   const comment= useSelector((state)=>state.data_store.location_data,shallowEqual) 
   const category_name= useSelector((state)=>state.data_store.category_name);
@@ -81,7 +81,7 @@ export default function page_list() {
   
   
   return (
-    <div className="flex flex-2 flex-col px-8 h-full overflow-hidden relative">
+    <div   className={`${active ? 'block' : 'hidden'} flex flex-2 flex-col px-8 h-full overflow-hidden relative`}  >
 
       <div className="pt-2 pb-2 flex gap-10 items-center border-b border-gray-200">
        {modal.modal && (

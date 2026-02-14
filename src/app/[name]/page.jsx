@@ -46,8 +46,8 @@ const queryClient = new QueryClient();
       <div className="flex-[1] flex flex-col bg-white overflow-hidden">
         <Videopage />
        {/* 내부 스크롤 영역  <Page_list /> */}
-       {Choice=='Explore' && <Page_list></Page_list>}
-       {Choice=='MyTrip' &&<Iternity_page></Iternity_page> }
+<Page_list active={Choice === 'Explore'} />
+<Iternity_page active={Choice === 'MyTrip'} />
       </div>
 
       {/* 오른쪽 지도 영역 */}
