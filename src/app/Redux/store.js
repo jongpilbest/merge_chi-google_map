@@ -167,12 +167,12 @@ const data_store_slice= createSlice({
       return;
     }
 
-    state.travel_Result = {
-      ...state.travel_Result,
-      daydata: action.payload.daydata,
-      tabs: action.payload.tabs,
-      selectedDay: action.payload.day,
-    };
+   state.travel_Result = {
+  ...state.travel_Result,
+  ...(action.payload.daydata && { daydata: action.payload.daydata }),
+  ...(action.payload.tabs && { tabs: action.payload.tabs }),
+  ...(action.payload.selectedDay && { selectedDay: action.payload.selectedDay }),
+};
   },
 
     

@@ -116,7 +116,7 @@ useEffect(() => {
 
         set_filter_comment([])
            dispatch( set_SelectedDay({
-         tabs: [...tabs],
+            tabs: [...tabs],
          })
         )
        Make_travel(Object.values(like_location),diffDays)
@@ -126,7 +126,7 @@ useEffect(() => {
       }
     
       const Make_travel= async function(places,day){
-    
+      if(places.length<day+1) return;
       const results = runKMeansWithOptimalInertia({
           data:places,
           k: day+1,
@@ -245,7 +245,8 @@ useEffect(() => {
   set_filter_comment(comment_filter);
  dispatch( set_SelectedDay({
            daydata: comment_filter,
-           selectedDay:pick_day-1
+           selectedDay:pick_day-1,
+           tabs:total_travel.tabs
          })
         )
     

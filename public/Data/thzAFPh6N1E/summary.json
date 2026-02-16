@@ -1,22 +1,40 @@
 [
-  {
-    "startTime": "38.000",
-    "endTime": "43.000",
+   {"city":"Nice",
+      "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Nice/Nice%20Parc%20de%20la%20Colline%20du%20Ch%C3%A2teau/224160.jpg?raw=true",
+    "startTime": "29",
+    "endTime": "80.360",
+    "place": "Nice Castle Hill Parc de la Colline du Château",
+    "googlePlace": "Nice Parc de la Colline du Château",
+    "describe": "니스를 한눈에 담는 성채 언덕 공원, 여러 전망 포인트와 유적",
+    "realname": "확실함",
+    "emozi": "🏞️📸",
+    "category": "Attraction",
+    "location": {
+      "lat": 43.6959352,
+      "lng": 7.279660100000001
+    },
+    "id": "ChIJ87pSBQHQzRIR7gulsDlUpa8"
+        ,"url":"thzAFPh6N1E"
+  }, {
+    "startTime": "110.000",
+    "endTime": "160.000",
     "place": "Nice Baie des Anges",
     "googlePlace": "Nice Baie des Anges",
     "describe": "니스 앞바다의 대표 만으로 캐슬힐에서 내려다보는 아름다운 전경으로 유명.",
     "realname": "의심됨",
     "city": "Nice",
-    "emozi": "🌊🏖️",
+    "emozi": "🌊🔭",
     "category": "Attraction",
     "location": {
-      "lat": 43.7101728,
-      "lng": 7.261953200000001
+      "lat":  43.6958910076606, 
+      "lng": 7.269242246641767
     },
     "url": "thzAFPh6N1E",
-    "id": "ChIJMS2FahDQzRIRcJqX_aUZCAQ",
+    "id": "ChIJ0VoczFnQzRIR737WTal1fso",
     "image": "https://github.com/jongpilbest/image_iui_file/blob/main/Nice/thz/Nice%20Baie%20des%20Anges/41720.jpg?raw=true"
   },
+
+
   {
     "url": "thzAFPh6N1E",
     "startTime": "81.000",
@@ -37,39 +55,56 @@
   },
   {
     "url": "thzAFPh6N1E",
-    "startTime": "172.000",
+    "startTime": "170.000",
     "endTime": "177.000",
     "place": "Nice Hôtel Albert 1er",
     "googlePlace": "Nice Hotel Albert Premier",
     "describe": "레드 호프온·호프오프 버스의 출발 지점 앞에 있는 중심가 호텔.",
     "realname": "의심됨",
     "emozi": "🏨🚌",
-    "category": "Accommodation",
+    "category": "Transportation",
     "location": {
-      "lat": 43.7101728,
-      "lng": 7.261953200000001
+      "lat":43.69534731430987,
+      "lng":  7.271860975097196
     },
-    "id": "ChIJMS2FahDQzRIRcJqX_aUZCAQ",
+    "id": "ChIJs_OOn6HazRIRjsyj0qLurjE",
     "city": "Nice",
     "image": "https://github.com/jongpilbest/image_iui_file/blob/main/Nice/thz/Nice%20H%C3%B4tel%20Albert%201er/174320.jpg?raw=true"
   },
-  {
-    "url": "thzAFPh6N1E",
-    "startTime": "192.000",
-    "endTime": "202.000",
-    "place": "Nice Vélobleu (Bike Share)",
-    "googlePlace": "Nice, France - Vélos Bleu",
-    "describe": "니스 공공 자전거 대여. 소액 구독 후 첫 1시간 약 1유로로 이용 가능.",
-    "realname": "의심됨",
-    "emozi": "🚲🔵",
+ 
+     {"city":"Nice",
+       "image":"https://github.com/jongpilbest/image_iui_file/blob/main/Nice/train.png?raw=true",
+    "startTime": "223.040",
+    "endTime": "240.120",
+    "place": "Nice LTrains Touristiques de Nice ",
+    "googlePlace": "Nice LTrains Touristiques de Nice ",
+    "describe": "프롬나드에서 출발하는 전기 관광 열차는 약 45분 동안 도시와 캐슬 힐 정상까지 둘러보는 관광 코스",
+    "realname": "확실함",
+    "emozi": "🚉📍",
     "category": "Transportation",
     "location": {
-      "lat": 43.7101728,
-      "lng": 7.261953200000001
+      "lat":43.695234862237704, 
+      "lng": 7.2681826519861605
     },
-    "id": "ChIJMS2FahDQzRIRcJqX_aUZCAQ",
+    "id": "ChIJG4keDaDazRIRST-t5Nz-bp4"
+        ,"url":"TbZl5CvcS6M"
+  }, {
+    "url": "thzAFPh6N1E",
+    "startTime": "255.000",
+    "endTime": "281.000",
+    "place": "Vieille Ville",
+    "googlePlace": "Vieille Ville",
+    "describe": "꽃시장과 중세풍 알록달록한 건물, 그늘진 골목과 카페 광장이 어우러진 니스 구시가지 산책 공간.",
+    "realname": "의심됨",
+    "emozi": "🗺️🚶‍♂️",
+    "category": "Attraction",
     "city": "Nice",
-    "image": "https://github.com/jongpilbest/image_iui_file/blob/main/Nice/thz/Nice%20V%C3%A9lobleu/194360.jpg?raw=true"
+    "location": {
+      "lat":  43.69272,
+      "lng": 7.26913 
+    },
+    "id": "ChIJPYkTLwvQzRIRa-NNOMg2Cuc",
+    "image": "https://github.com/jongpilbest/image_iui_file/blob/main/Nice/thz/Nice%20Fenocchio%20Glacier/290360.jpg?raw=true"
   },
   {
     "url": "thzAFPh6N1E",
@@ -87,6 +122,24 @@
       "lng": 7.2789192
     },
     "id": "ChIJrVd0ALvazRIRgZ9_9PW3Zwo",
+    "image": "https://github.com/jongpilbest/image_iui_file/blob/main/Nice/thz/Nice%20Fenocchio%20Glacier/290360.jpg?raw=true"
+  },
+    {
+    "url": "thzAFPh6N1E",
+    "startTime": "291.000",
+    "endTime": "296.000",
+    "place": "Nice Fenocchio",
+    "googlePlace": "Nice Fenocchio",
+    "describe": "독특한 맛으로 유명한 아이스크림 가게 ",
+    "realname": "의심됨",
+    "emozi": "🍨🍦",
+    "category": "Food and Beverage",
+    "city": "Nice",
+    "location": {
+      "lat": 43.645406,
+      "lng": 7.182148
+    },
+    "id": "ChIJMS2FahDQzRIRcJqX_aUZCAQ",
     "image": "https://github.com/jongpilbest/image_iui_file/blob/main/Nice/thz/Nice%20Fenocchio%20Glacier/290360.jpg?raw=true"
   },
   {
@@ -146,7 +199,7 @@
   {
     "url": "thzAFPh6N1E",
     "startTime": "486.000",
-    "endTime": "500.000",
+    "endTime": "488.000",
     "place": "Èze  Èze Village",
     "googlePlace": "Eze Village",
     "describe": "니스에서 약 30분, 코트다쥐르에서 가장 유명한 중세 마을 중 하나로 성수기 혼잡",
@@ -170,7 +223,7 @@
     "googlePlace": "Saint-Paul-de-Vence Saint-Paul-de-Vence",
     "describe": "코트다쥐르 대표 중세 마을로 방문객이 많은 명소",
     "realname": "확실함",
-    "emozi": "🏰🌄",
+    "emozi": "🏰🌍",
     "category": "Attraction",
     "location": {
       "lat": 43.696973,
@@ -200,7 +253,7 @@
 
   {
     "url": "thzAFPh6N1E",
-    "startTime": "568.000",
+    "startTime": "564.000",
     "endTime": "594.000",
     "place": "Nice  Anantara Plaza Nice Hotel",
     "googlePlace": "Nice Anantara Plaza Nice Hotel",

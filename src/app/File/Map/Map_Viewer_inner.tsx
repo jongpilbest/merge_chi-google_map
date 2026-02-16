@@ -9,18 +9,14 @@ export default function Map_Viewer_inner({id_key}) {
   const dispatch= useDispatch();
 
 const { color_location } = useSelector((state: any) => state.data_store);
+const {travel_Result}=  useSelector((state: any) => state.data_store);
+
 
 
   const [selected, setSelected] = useState<boolean>(false); 
 
-  const days = [
-    1,
-    2,
-    3,
-    4,
-    100
-  ];
-
+  const days = [...travel_Result.tabs,{"id":100,"label":"Day delete"}]
+   console.log(days,'?')
   return (
     <>
      
@@ -72,19 +68,19 @@ const { color_location } = useSelector((state: any) => state.data_store);
         >
           {days.map((day,index) => (
             <div
-              key={day}
+              key={day.label}
             
               onClick={(e) => {
                 e.preventDefault();
                
                 dispatch(personal_color_place({
                   key:id_key ,
-                  index:index+1}))
+                  index:day.id}))
                
               }}
               className="w-full h-8 bg-white flex items-center hover:bg-gray-300    justify-between p-2 "
             >
-              <p className="font-bold text-md ">{ day <100 ? `Day ${day}` :'Day Delete'}</p>
+              <p className="font-bold text-md ">{ day.id <100 ? `Day ${day.id}` :'Day Delete'}</p>
               {color_location.hasOwnProperty(id_key) && color_location[id_key] === day &&<FaCheck className=" text-md text-green-500"></FaCheck> }
             </div>
           

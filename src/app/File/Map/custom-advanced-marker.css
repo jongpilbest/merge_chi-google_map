@@ -4,7 +4,13 @@
   transform: translateY(-5px);
   transition: all 0.2s ease-in-out;
 }
-
+.advanced-marker-example
+  .real-estate-marker.clicked
+  .custom-pin
+  .details-container {
+  background-color: white;
+  color: black;
+}
 .advanced-marker-example .real-estate-marker .tip {
   position: absolute;
   bottom: 0;

@@ -49,9 +49,9 @@ const time_total= time_changer(totalTime)
         ))}
       </SortableContext>
         <div className="flex  p-2  justify-between ">
-        <p className="font-bold text-sm">전체 이동 시간 </p>
-         <p className="text-sm"> {time_total}  </p>
-      </div>
+        <p className="font-bold text-sm text-black">전체 이동 시간 </p>
+         <p className="text-sm text-black"> {time_total}  </p>
+      </div> 
     </div>
   );
 };
