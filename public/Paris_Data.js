@@ -36,7 +36,7 @@ tagging: "#Mediterranean #Port ",
       "lat":  43.645406,
       "lng": 7.182148
     },
-    image:'https://i.namu.wiki/i/UqwMZc4eOA_jk52kmvz8oYgxXkmknbjMrFXLz4wlQuXlv8QpEG1Z6QIoe9Bz1oL5vKKWe8niu_89OBiDvlHzrSlXAv7xMuyoJXgP406xpNAK5vqa5gp3Ogzo_F4GHgvPVUuKlnw7s-66T0bFiKiXJQ.webp'
+    image:'//i.namu.wiki/i/EQYh_tAMLL9qH-63ULSfesUWG9IOJ0yoRYPZz9NltIDNMpHpmLqsOvDz3b2GrxTam7AoF8KkmCgn8QLe0PB6pqHDrLxXwG7Cg3L57erxUQCh87l9vN7zmoa-4iKcB71P5ijKAhCXD96CGkn_2GFSjg.webp'
     },
 
 

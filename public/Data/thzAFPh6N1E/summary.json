@@ -100,8 +100,8 @@
     "category": "Attraction",
     "city": "Nice",
     "location": {
-      "lat":  43.69272,
-      "lng": 7.26913 
+      "lat":  43.69665629226848,
+      "lng":  7.276159282071899
     },
     "id": "ChIJPYkTLwvQzRIRa-NNOMg2Cuc",
     "image": "https://github.com/jongpilbest/image_iui_file/blob/main/Nice/thz/Nice%20Fenocchio%20Glacier/290360.jpg?raw=true"
@@ -136,11 +136,11 @@
     "category": "Food and Beverage",
     "city": "Nice",
     "location": {
-      "lat": 43.645406,
-      "lng": 7.182148
+      "lat": 43.695942,
+      "lng": 7.275087 
     },
-    "id": "ChIJMS2FahDQzRIRcJqX_aUZCAQ",
-    "image": "https://github.com/jongpilbest/image_iui_file/blob/main/Nice/thz/Nice%20Fenocchio%20Glacier/290360.jpg?raw=true"
+    "id": "ChIJ612-srzazRIRHsUP6Pepays",
+    "image": "https://github.com/jongpilbest/image_iui_file/blob/main/Nice/thz/Nice%20Fenocchio%20Glacier/292040.jpg?raw=true"
   },
   {
     "url": "thzAFPh6N1E",
@@ -157,6 +157,7 @@
       "lat": 43.695607,
       "lng": 7.2749227
     },
+     "Data":"Experiment",
     "id": "ChIJO2a3IKPazRIRvoDhP3QCfcE",
     "image": "https://github.com/jongpilbest/image_iui_file/blob/main/Nice/thz/Nice%20Cours%20Saleya/303840.jpg?raw=true"
   },
@@ -194,6 +195,7 @@
       "lng": 7.270165099999999
     },
     "id": "ChIJI9rouKvazRIRqmGBA1K3IzQ",
+    "Data":"Experiment",
     "image": "https://github.com/jongpilbest/image_iui_file/blob/main/Nice/thz/Nice%20Mus%C3%A9e%20National%20Marc%20Chagall/394400.jpg?raw=true"
   },
   {
@@ -281,8 +283,8 @@
     "city": "Nice",
     "category": "Attraction",
     "location": {
-      "lat": 43.6975383,
-      "lng": 7.2718495
+      "lat":43.694886,
+      "lng": 7.266297
     },
     "id": "ChIJo4fztaTazRIR2itWIoTnpZ4",
     "image": "https://github.com/jongpilbest/image_iui_file/blob/main/Nice/thz/Nice%20Promenade%20du%20Paillon/585280.jpg?raw=true"
